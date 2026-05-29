@@ -1,7 +1,15 @@
 /target
 
-# VaultMind local index/state (regenerable per-project)
-.vaultmind/
+# VaultMind index (regenerable) — ignore the DB, keep the committed config.yaml
+.vaultmind/index.db
+.vaultmind/index.db-shm
+.vaultmind/index.db-wal
+vault/.vaultmind/index.db
+vault/.vaultmind/index.db-shm
+vault/.vaultmind/index.db-wal
+
+# VaultMind per-session episode transcripts (local durable capture)
+vault/episodes/
 
 *.swp
 *.swo

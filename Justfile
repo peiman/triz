@@ -21,6 +21,21 @@ coverage:
 build:
     cargo build --release
 
+# Vault path for the TRIZ knowledgebase (single source of truth)
+vault_dir := "vault"
+
+# (Re)index the TRIZ knowledgebase — incremental; embeds with minilm
+vault-index:
+    vaultmind index --embed --model minilm --vault {{vault_dir}}
+
+# Full rebuild of the vault index (use after large content changes / ranking issues)
+vault-reindex:
+    vaultmind index --embed --model minilm --full --vault {{vault_dir}}
+
+# Vault health: unresolved links, embedding coverage, Obsidian-incompatible links
+vault-doctor:
+    vaultmind doctor --vault {{vault_dir}}
+
 # Initialize scaffold for a new project (run once after clone)
 init name:
     .ckeletin/scripts/init.sh {{name}}
