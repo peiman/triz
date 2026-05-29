@@ -3,6 +3,8 @@ id: principle-11-beforehand-cushioning
 type: concept
 title: "Principle 11: Beforehand Cushioning"
 created: 2026-05-29
+number: 11
+confidence: high
 aliases:
   - Beforehand cushioning
   - Cushion in advance

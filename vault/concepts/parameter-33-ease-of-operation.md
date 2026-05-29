@@ -3,6 +3,8 @@ id: parameter-33-ease-of-operation
 type: concept
 title: "Parameter 33: Ease of Operation"
 created: 2026-05-29
+number: 33
+confidence: high
 aliases:
   - Ease of Operation
 tags:

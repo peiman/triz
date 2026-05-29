@@ -3,6 +3,7 @@ id: concept-resources
 type: concept
 title: "Resources"
 created: 2026-05-29
+confidence: high
 aliases:
   - Resources
   - Substance-Field Resources

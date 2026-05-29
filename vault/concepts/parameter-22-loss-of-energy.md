@@ -3,6 +3,8 @@ id: parameter-22-loss-of-energy
 type: concept
 title: "Parameter 22: Loss of Energy"
 created: 2026-05-29
+number: 22
+confidence: high
 aliases:
   - Loss of Energy
 tags:

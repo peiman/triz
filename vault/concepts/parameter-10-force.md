@@ -3,6 +3,8 @@ id: parameter-10-force
 type: concept
 title: "Parameter 10: Force (Intensity)"
 created: 2026-05-29
+number: 10
+confidence: high
 aliases:
   - Force (Intensity)
 tags:

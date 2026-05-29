@@ -3,6 +3,8 @@ id: parameter-04-length-of-stationary-object
 type: concept
 title: "Parameter 4: Length of Stationary Object"
 created: 2026-05-29
+number: 4
+confidence: high
 aliases:
   - Length of Stationary Object
 tags:

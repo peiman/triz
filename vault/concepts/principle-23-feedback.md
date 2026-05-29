@@ -3,6 +3,8 @@ id: principle-23-feedback
 type: concept
 title: "Principle 23: Feedback"
 created: 2026-05-29
+number: 23
+confidence: high
 aliases:
   - Feedback
 tags:

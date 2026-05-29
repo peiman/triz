@@ -3,6 +3,8 @@ id: principle-38-strong-oxidants
 type: concept
 title: "Principle 38: Strong Oxidants"
 created: 2026-05-29
+number: 38
+confidence: high
 aliases:
   - Strong oxidants
   - Accelerated oxidation

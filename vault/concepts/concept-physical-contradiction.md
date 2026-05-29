@@ -3,6 +3,7 @@ id: concept-physical-contradiction
 type: concept
 title: "Physical Contradiction"
 created: 2026-05-29
+confidence: high
 aliases:
   - Inherent Contradiction
 tags:

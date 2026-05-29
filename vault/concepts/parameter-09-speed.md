@@ -3,6 +3,8 @@ id: parameter-09-speed
 type: concept
 title: "Parameter 9: Speed"
 created: 2026-05-29
+number: 9
+confidence: high
 aliases:
   - Speed
 tags:

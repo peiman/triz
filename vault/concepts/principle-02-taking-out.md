@@ -3,6 +3,8 @@ id: principle-02-taking-out
 type: concept
 title: "Principle 2: Taking Out"
 created: 2026-05-29
+number: 2
+confidence: high
 aliases:
   - Taking out
   - Extraction

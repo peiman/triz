@@ -3,6 +3,8 @@ id: parameter-14-strength
 type: concept
 title: "Parameter 14: Strength"
 created: 2026-05-29
+number: 14
+confidence: high
 aliases:
   - Strength
 tags:

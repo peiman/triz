@@ -3,6 +3,8 @@ id: principle-20-continuity-of-useful-action
 type: concept
 title: "Principle 20: Continuity of Useful Action"
 created: 2026-05-29
+number: 20
+confidence: high
 aliases:
   - Continuity of useful action
 tags:

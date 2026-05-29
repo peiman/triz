@@ -3,6 +3,8 @@ id: principle-27-cheap-short-living-objects
 type: concept
 title: "Principle 27: Cheap Short-living Objects"
 created: 2026-05-29
+number: 27
+confidence: high
 aliases:
   - Cheap short-living objects
   - Cheap disposables

@@ -3,6 +3,7 @@ id: concept-su-field-analysis
 type: concept
 title: "Substance-Field (Su-Field) Analysis"
 created: 2026-05-29
+confidence: high
 aliases:
   - Su-Field Analysis
   - Substance-Field Analysis

@@ -3,6 +3,8 @@ id: principle-08-anti-weight
 type: concept
 title: "Principle 8: Anti-weight"
 created: 2026-05-29
+number: 8
+confidence: high
 aliases:
   - Anti-weight
   - Counterweight

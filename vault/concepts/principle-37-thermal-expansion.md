@@ -3,6 +3,8 @@ id: principle-37-thermal-expansion
 type: concept
 title: "Principle 37: Thermal Expansion"
 created: 2026-05-29
+number: 37
+confidence: high
 aliases:
   - Thermal expansion
 tags:

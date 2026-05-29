@@ -3,6 +3,7 @@ id: concept-triz-industrial-adoption
 type: concept
 title: "TRIZ Industrial Adoption & the Method-vs-Impact Gap"
 created: 2026-05-30
+confidence: high
 aliases:
   - TRIZ industrial adoption
   - Method vs impact gap

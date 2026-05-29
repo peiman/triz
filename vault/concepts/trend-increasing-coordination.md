@@ -3,6 +3,7 @@ id: trend-increasing-coordination
 type: concept
 title: "TESE Trend: Increasing Coordination"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of increasing coordination
 tags:

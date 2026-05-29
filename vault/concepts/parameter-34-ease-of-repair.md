@@ -3,6 +3,8 @@ id: parameter-34-ease-of-repair
 type: concept
 title: "Parameter 34: Ease of Repair"
 created: 2026-05-29
+number: 34
+confidence: high
 aliases:
   - Ease of Repair
 tags:

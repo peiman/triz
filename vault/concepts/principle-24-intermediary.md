@@ -3,6 +3,8 @@ id: principle-24-intermediary
 type: concept
 title: "Principle 24: Intermediary"
 created: 2026-05-29
+number: 24
+confidence: high
 aliases:
   - Intermediary
   - Mediator

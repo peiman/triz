@@ -3,6 +3,7 @@ id: concept-s-curve
 type: concept
 title: "S-Curve of System Evolution"
 created: 2026-05-29
+confidence: high
 aliases:
   - S-Curve
 tags:

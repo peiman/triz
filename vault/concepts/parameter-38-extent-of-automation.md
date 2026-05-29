@@ -3,6 +3,8 @@ id: parameter-38-extent-of-automation
 type: concept
 title: "Parameter 38: Extent of Automation"
 created: 2026-05-29
+number: 38
+confidence: high
 aliases:
   - Extent of Automation
 tags:

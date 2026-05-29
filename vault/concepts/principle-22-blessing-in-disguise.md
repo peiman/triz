@@ -3,6 +3,8 @@ id: principle-22-blessing-in-disguise
 type: concept
 title: "Principle 22: Blessing in Disguise"
 created: 2026-05-29
+number: 22
+confidence: high
 aliases:
   - Blessing in disguise
   - Convert harm into benefit

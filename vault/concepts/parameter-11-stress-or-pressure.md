@@ -3,6 +3,8 @@ id: parameter-11-stress-or-pressure
 type: concept
 title: "Parameter 11: Stress or Pressure"
 created: 2026-05-29
+number: 11
+confidence: high
 aliases:
   - Stress or Pressure
 tags:

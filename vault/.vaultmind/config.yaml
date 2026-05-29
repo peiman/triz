@@ -10,14 +10,21 @@ vault:
 types:
   concept:
     required: [title]
-    optional: [aliases, tags, related_ids, source_ids, parent_id]
+    # number: ordinal for principle-* (1-40) and parameter-* (1-39) notes.
+    # confidence: high | medium | low — queryable provenance of the note's claims.
+    optional: [aliases, tags, related_ids, source_ids, parent_id, number, confidence]
     statuses: []
     template: templates/concept.md
   source:
     required: [title, url]
-    optional: [aliases, tags, related_ids]
+    optional: [aliases, tags, related_ids, confidence]
     statuses: []
     template: templates/source.md
+  case-study:
+    required: [title]
+    optional: [aliases, tags, related_ids, source_ids, parent_id, confidence]
+    statuses: []
+    template: templates/case-study.md
   person:
     required: [title]
     optional: [aliases, tags, related_ids, url]

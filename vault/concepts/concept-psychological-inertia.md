@@ -3,6 +3,7 @@ id: concept-psychological-inertia
 type: concept
 title: "Psychological Inertia"
 created: 2026-05-29
+confidence: medium
 aliases:
   - Psychological Inertia
 tags:

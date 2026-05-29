@@ -3,6 +3,8 @@ id: principle-29-pneumatics-and-hydraulics
 type: concept
 title: "Principle 29: Pneumatics and Hydraulics"
 created: 2026-05-29
+number: 29
+confidence: high
 aliases:
   - Pneumatics and hydraulics
 tags:

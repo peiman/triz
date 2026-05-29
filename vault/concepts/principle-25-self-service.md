@@ -3,6 +3,8 @@ id: principle-25-self-service
 type: concept
 title: "Principle 25: Self-service"
 created: 2026-05-29
+number: 25
+confidence: high
 aliases:
   - Self-service
 tags:

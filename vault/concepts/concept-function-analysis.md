@@ -3,6 +3,7 @@ id: concept-function-analysis
 type: concept
 title: "Function Analysis (Function Modeling)"
 created: 2026-05-29
+confidence: high
 aliases:
   - Function Analysis
   - Function Modeling

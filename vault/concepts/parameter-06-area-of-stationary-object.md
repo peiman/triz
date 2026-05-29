@@ -3,6 +3,8 @@ id: parameter-06-area-of-stationary-object
 type: concept
 title: "Parameter 6: Area of Stationary Object"
 created: 2026-05-29
+number: 6
+confidence: high
 aliases:
   - Area of Stationary Object
 tags:

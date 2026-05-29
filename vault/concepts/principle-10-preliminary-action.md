@@ -3,6 +3,8 @@ id: principle-10-preliminary-action
 type: concept
 title: "Principle 10: Preliminary Action"
 created: 2026-05-29
+number: 10
+confidence: high
 aliases:
   - Preliminary action
   - Prior action

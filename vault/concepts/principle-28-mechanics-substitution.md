@@ -3,6 +3,8 @@ id: principle-28-mechanics-substitution
 type: concept
 title: "Principle 28: Mechanics Substitution"
 created: 2026-05-29
+number: 28
+confidence: high
 aliases:
   - Mechanics substitution
   - Replacement of a mechanical system

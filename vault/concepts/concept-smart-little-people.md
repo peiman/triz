@@ -3,6 +3,7 @@ id: concept-smart-little-people
 type: concept
 title: "Smart Little People (Modeling)"
 created: 2026-05-29
+confidence: high
 aliases:
   - Smart Little People
   - Method of Little People

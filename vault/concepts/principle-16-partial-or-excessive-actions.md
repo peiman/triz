@@ -3,6 +3,8 @@ id: principle-16-partial-or-excessive-actions
 type: concept
 title: "Principle 16: Partial or Excessive Actions"
 created: 2026-05-29
+number: 16
+confidence: high
 aliases:
   - Partial or excessive actions
 tags:

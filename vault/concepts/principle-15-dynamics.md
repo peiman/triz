@@ -3,6 +3,8 @@ id: principle-15-dynamics
 type: concept
 title: "Principle 15: Dynamics"
 created: 2026-05-29
+number: 15
+confidence: high
 aliases:
   - Dynamics
   - Dynamicity

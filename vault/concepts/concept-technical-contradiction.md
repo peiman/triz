@@ -3,6 +3,7 @@ id: concept-technical-contradiction
 type: concept
 title: "Technical Contradiction"
 created: 2026-05-29
+confidence: high
 aliases:
   - Engineering Contradiction
 tags:

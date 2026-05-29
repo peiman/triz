@@ -3,6 +3,7 @@ id: concept-super-system
 type: concept
 title: "Super-System"
 created: 2026-05-29
+confidence: high
 aliases:
   - Supersystem
   - Super-system

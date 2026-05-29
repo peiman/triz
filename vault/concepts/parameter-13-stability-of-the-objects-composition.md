@@ -3,6 +3,8 @@ id: parameter-13-stability-of-the-objects-composition
 type: concept
 title: "Parameter 13: Stability of the Object Composition"
 created: 2026-05-29
+number: 13
+confidence: high
 aliases:
   - Stability of the Object Composition
 tags:

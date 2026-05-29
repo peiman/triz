@@ -3,6 +3,7 @@ id: concept-76-standard-solutions
 type: concept
 title: "The 76 Standard Solutions"
 created: 2026-05-29
+confidence: high
 aliases:
   - 76 Standard Solutions
   - Standard Inventive Solutions

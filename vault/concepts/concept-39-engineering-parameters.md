@@ -3,6 +3,7 @@ id: concept-39-engineering-parameters
 type: concept
 title: "39 Engineering Parameters"
 created: 2026-05-29
+confidence: high
 aliases:
   - 39 Typical Parameters
   - Engineering Characteristics

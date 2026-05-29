@@ -3,6 +3,8 @@ id: principle-30-flexible-shells-and-thin-films
 type: concept
 title: "Principle 30: Flexible Shells and Thin Films"
 created: 2026-05-29
+number: 30
+confidence: high
 aliases:
   - Flexible shells and thin films
   - Flexible membranes

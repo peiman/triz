@@ -1,8 +1,9 @@
 ---
 id: case-study-rabbit-enclosure
-type: concept
+type: case-study
 title: "Case Study: Self-feeding Rabbit Enclosure"
 created: 2026-05-29
+confidence: medium
 aliases:
   - Rabbit enclosure case
 tags:

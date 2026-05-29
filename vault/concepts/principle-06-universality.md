@@ -3,6 +3,8 @@ id: principle-06-universality
 type: concept
 title: "Principle 6: Universality"
 created: 2026-05-29
+number: 6
+confidence: high
 aliases:
   - Universality
 tags:

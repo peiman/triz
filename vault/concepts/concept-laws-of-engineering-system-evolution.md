@@ -3,6 +3,7 @@ id: concept-laws-of-engineering-system-evolution
 type: concept
 title: "Laws (Trends) of Engineering System Evolution"
 created: 2026-05-29
+confidence: medium
 aliases:
   - Laws of Technical Systems Evolution
   - Trends of Engineering Systems Evolution

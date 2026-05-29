@@ -3,6 +3,7 @@ id: concept-effects-database
 type: concept
 title: "Scientific Effects Database"
 created: 2026-05-29
+confidence: high
 aliases:
   - Effects Database
   - Scientific Effects

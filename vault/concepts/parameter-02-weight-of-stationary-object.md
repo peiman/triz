@@ -3,6 +3,8 @@ id: parameter-02-weight-of-stationary-object
 type: concept
 title: "Parameter 2: Weight of Stationary Object"
 created: 2026-05-29
+number: 2
+confidence: high
 aliases:
   - Weight of Stationary Object
 tags:

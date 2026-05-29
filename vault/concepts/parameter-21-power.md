@@ -3,6 +3,8 @@ id: parameter-21-power
 type: concept
 title: "Parameter 21: Power"
 created: 2026-05-29
+number: 21
+confidence: high
 aliases:
   - Power
 tags:

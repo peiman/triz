@@ -3,6 +3,7 @@ id: concept-levels-of-invention
 type: concept
 title: "Five Levels of Invention"
 created: 2026-05-29
+confidence: high
 aliases:
   - Levels of Invention
   - Five Levels of Invention

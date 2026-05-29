@@ -3,6 +3,8 @@ id: principle-12-equipotentiality
 type: concept
 title: "Principle 12: Equipotentiality"
 created: 2026-05-29
+number: 12
+confidence: high
 aliases:
   - Equipotentiality
 tags:

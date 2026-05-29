@@ -1,8 +1,9 @@
 ---
 id: case-study-furnace-conveyor
-type: concept
+type: case-study
 title: "Case Study: Furnace Conveyor Misalignment (matrix + su-field)"
 created: 2026-05-30
+confidence: medium
 aliases:
   - Furnace conveyor case
 tags:

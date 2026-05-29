@@ -3,6 +3,8 @@ id: parameter-27-reliability
 type: concept
 title: "Parameter 27: Reliability"
 created: 2026-05-29
+number: 27
+confidence: high
 aliases:
   - Reliability
 tags:

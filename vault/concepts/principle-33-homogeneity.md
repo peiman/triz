@@ -3,6 +3,8 @@ id: principle-33-homogeneity
 type: concept
 title: "Principle 33: Homogeneity"
 created: 2026-05-29
+number: 33
+confidence: high
 aliases:
   - Homogeneity
 tags:

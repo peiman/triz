@@ -3,6 +3,8 @@ id: parameter-39-productivity
 type: concept
 title: "Parameter 39: Productivity"
 created: 2026-05-29
+number: 39
+confidence: high
 aliases:
   - Productivity
 tags:

@@ -3,6 +3,8 @@ id: principle-34-discarding-and-recovering
 type: concept
 title: "Principle 34: Discarding and Recovering"
 created: 2026-05-29
+number: 34
+confidence: high
 aliases:
   - Discarding and recovering
   - Rejecting and regenerating parts

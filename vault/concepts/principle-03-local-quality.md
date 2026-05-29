@@ -3,6 +3,8 @@ id: principle-03-local-quality
 type: concept
 title: "Principle 3: Local Quality"
 created: 2026-05-29
+number: 3
+confidence: high
 aliases:
   - Local quality
 tags:

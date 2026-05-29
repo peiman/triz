@@ -3,6 +3,8 @@ id: parameter-25-loss-of-time
 type: concept
 title: "Parameter 25: Loss of Time"
 created: 2026-05-29
+number: 25
+confidence: high
 aliases:
   - Loss of Time
 tags:

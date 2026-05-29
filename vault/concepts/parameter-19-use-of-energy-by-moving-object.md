@@ -3,6 +3,8 @@ id: parameter-19-use-of-energy-by-moving-object
 type: concept
 title: "Parameter 19: Use of Energy by Moving Object"
 created: 2026-05-29
+number: 19
+confidence: high
 aliases:
   - Use of Energy by Moving Object
 tags:

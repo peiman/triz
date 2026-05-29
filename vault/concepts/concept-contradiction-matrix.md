@@ -3,6 +3,7 @@ id: concept-contradiction-matrix
 type: concept
 title: "Contradiction Matrix"
 created: 2026-05-29
+confidence: medium
 aliases:
   - Altshuller Matrix
   - TRIZ Matrix

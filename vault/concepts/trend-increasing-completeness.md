@@ -3,6 +3,7 @@ id: trend-increasing-completeness
 type: concept
 title: "TESE Trend: Increasing Completeness of System Components"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of increasing completeness of system components
 tags:

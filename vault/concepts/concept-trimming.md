@@ -3,6 +3,7 @@ id: concept-trimming
 type: concept
 title: "Trimming"
 created: 2026-05-29
+confidence: high
 aliases:
   - Trimming
   - Function Trimming

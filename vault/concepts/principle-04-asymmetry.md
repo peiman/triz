@@ -3,6 +3,8 @@ id: principle-04-asymmetry
 type: concept
 title: "Principle 4: Asymmetry"
 created: 2026-05-29
+number: 4
+confidence: high
 aliases:
   - Asymmetry
 tags:

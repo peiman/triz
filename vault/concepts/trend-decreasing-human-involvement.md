@@ -3,6 +3,7 @@ id: trend-decreasing-human-involvement
 type: concept
 title: "TESE Trend: Decreasing Human Involvement"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of decreasing human involvement
 tags:

@@ -3,6 +3,7 @@ id: trend-flow-enhancement
 type: concept
 title: "TESE Trend: Flow Enhancement"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of flow enhancement
 tags:

@@ -1,8 +1,9 @@
 ---
 id: case-study-rock-breaking
-type: concept
+type: case-study
 title: "Case Study: Breaking Rock with a Pneumatic Hammer"
 created: 2026-05-29
+confidence: high
 aliases:
   - Rock breaking case
 tags:

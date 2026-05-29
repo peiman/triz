@@ -3,6 +3,7 @@ id: concept-40-inventive-principles
 type: concept
 title: "40 Inventive Principles"
 created: 2026-05-29
+confidence: high
 aliases:
   - 40 Principles
   - Inventive Principles

@@ -3,6 +3,8 @@ id: parameter-01-weight-of-moving-object
 type: concept
 title: "Parameter 1: Weight of Moving Object"
 created: 2026-05-29
+number: 1
+confidence: high
 aliases:
   - Weight of Moving Object
 tags:

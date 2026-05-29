@@ -3,6 +3,8 @@ id: parameter-16-duration-of-action-of-stationary-object
 type: concept
 title: "Parameter 16: Duration of Action of Stationary Object"
 created: 2026-05-29
+number: 16
+confidence: high
 aliases:
   - Duration of Action of Stationary Object
 tags:

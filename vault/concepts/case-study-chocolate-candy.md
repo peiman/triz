@@ -1,8 +1,9 @@
 ---
 id: case-study-chocolate-candy
-type: concept
+type: case-study
 title: "Case Study: Chocolate-coated Liqueur Candy"
 created: 2026-05-29
+confidence: medium
 aliases:
   - Chocolate candy case
 tags:

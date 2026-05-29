@@ -1,8 +1,9 @@
 ---
 id: case-study-pcr-diagnostics
-type: concept
+type: case-study
 title: "Case Study: PCR Diagnostics (matrix, fully documented)"
 created: 2026-05-30
+confidence: high
 aliases:
   - PCR diagnostics case
 tags:

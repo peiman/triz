@@ -3,6 +3,7 @@ id: concept-ariz-85c-walkthrough
 type: concept
 title: "ARIZ-85C: Step-by-Step Walkthrough"
 created: 2026-05-30
+confidence: high
 aliases:
   - ARIZ-85C walkthrough
   - ARIZ parts and steps

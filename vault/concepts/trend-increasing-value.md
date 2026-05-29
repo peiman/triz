@@ -3,6 +3,7 @@ id: trend-increasing-value
 type: concept
 title: "TESE Trend: Increasing Value"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of increasing value
   - Trend of increasing ideality

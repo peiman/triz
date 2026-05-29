@@ -3,6 +3,8 @@ id: principle-17-another-dimension
 type: concept
 title: "Principle 17: Another Dimension"
 created: 2026-05-29
+number: 17
+confidence: high
 aliases:
   - Another dimension
   - Transition into a new dimension

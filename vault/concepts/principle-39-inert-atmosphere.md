@@ -3,6 +3,8 @@ id: principle-39-inert-atmosphere
 type: concept
 title: "Principle 39: Inert Atmosphere"
 created: 2026-05-29
+number: 39
+confidence: high
 aliases:
   - Inert atmosphere
   - Inert environment

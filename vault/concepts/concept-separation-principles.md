@@ -3,6 +3,7 @@ id: concept-separation-principles
 type: concept
 title: "Separation Principles"
 created: 2026-05-29
+confidence: medium
 aliases:
   - Separation Principles
 tags:

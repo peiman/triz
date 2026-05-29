@@ -3,6 +3,7 @@ id: concept-ideality
 type: concept
 title: "Ideality and the Ideal Final Result (IFR)"
 created: 2026-05-29
+confidence: high
 aliases:
   - Ideality
   - Ideal Final Result

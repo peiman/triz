@@ -3,6 +3,7 @@ id: concept-ariz
 type: concept
 title: "ARIZ (Algorithm of Inventive Problem Solving)"
 created: 2026-05-29
+confidence: high
 aliases:
   - ARIZ
   - ARIZ-85C

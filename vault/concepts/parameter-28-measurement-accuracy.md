@@ -3,6 +3,8 @@ id: parameter-28-measurement-accuracy
 type: concept
 title: "Parameter 28: Measurement Accuracy"
 created: 2026-05-29
+number: 28
+confidence: high
 aliases:
   - Measurement Accuracy
 tags:

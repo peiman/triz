@@ -3,6 +3,8 @@ id: principle-35-parameter-changes
 type: concept
 title: "Principle 35: Parameter Changes"
 created: 2026-05-29
+number: 35
+confidence: high
 aliases:
   - Parameter changes
   - Transformation of properties

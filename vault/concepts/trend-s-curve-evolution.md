@@ -3,6 +3,7 @@ id: trend-s-curve-evolution
 type: concept
 title: "TESE Trend: S-Curve Evolution"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of S-curve evolution
 tags:

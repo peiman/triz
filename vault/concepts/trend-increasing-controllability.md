@@ -3,6 +3,7 @@ id: trend-increasing-controllability
 type: concept
 title: "TESE Trend: Increasing Controllability"
 created: 2026-05-30
+confidence: high
 aliases:
   - Trend of increasing controllability
 tags:

@@ -3,6 +3,8 @@ id: principle-32-color-changes
 type: concept
 title: "Principle 32: Color Changes"
 created: 2026-05-29
+number: 32
+confidence: high
 aliases:
   - Color changes
   - Optical property changes

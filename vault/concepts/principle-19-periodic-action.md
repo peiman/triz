@@ -3,6 +3,8 @@ id: principle-19-periodic-action
 type: concept
 title: "Principle 19: Periodic Action"
 created: 2026-05-29
+number: 19
+confidence: high
 aliases:
   - Periodic action
 tags:

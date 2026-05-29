@@ -3,6 +3,8 @@ id: principle-01-segmentation
 type: concept
 title: "Principle 1: Segmentation"
 created: 2026-05-29
+number: 1
+confidence: high
 aliases:
   - Segmentation
 tags:

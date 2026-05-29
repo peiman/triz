@@ -3,6 +3,8 @@ id: parameter-12-shape
 type: concept
 title: "Parameter 12: Shape"
 created: 2026-05-29
+number: 12
+confidence: high
 aliases:
   - Shape
 tags:

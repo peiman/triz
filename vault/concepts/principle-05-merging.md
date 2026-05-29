@@ -3,6 +3,8 @@ id: principle-05-merging
 type: concept
 title: "Principle 5: Merging"
 created: 2026-05-29
+number: 5
+confidence: high
 aliases:
   - Merging
   - Consolidation

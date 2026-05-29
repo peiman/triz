@@ -3,6 +3,7 @@ id: concept-system-operator
 type: concept
 title: "System Operator (9 Windows)"
 created: 2026-05-29
+confidence: high
 aliases:
   - System Operator
   - 9 Windows

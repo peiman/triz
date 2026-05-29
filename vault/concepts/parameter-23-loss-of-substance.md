@@ -3,6 +3,8 @@ id: parameter-23-loss-of-substance
 type: concept
 title: "Parameter 23: Loss of Substance"
 created: 2026-05-29
+number: 23
+confidence: high
 aliases:
   - Loss of Substance
 tags:

@@ -3,6 +3,7 @@ id: concept-feature-transfer
 type: concept
 title: "Feature Transfer"
 created: 2026-05-29
+confidence: high
 aliases:
   - Feature Transfer
 tags:
