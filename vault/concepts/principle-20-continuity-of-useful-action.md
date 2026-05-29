@@ -1,6 +1,6 @@
 ---
 id: principle-20-continuity-of-useful-action
-type: concept
+type: principle
 title: "Principle 20: Continuity of Useful Action"
 created: 2026-05-29
 number: 20

@@ -1,6 +1,6 @@
 ---
 id: parameter-36-device-complexity
-type: concept
+type: parameter
 title: "Parameter 36: Device Complexity"
 created: 2026-05-29
 number: 36

@@ -1,6 +1,6 @@
 ---
 id: parameter-31-object-generated-harmful-factor
-type: concept
+type: parameter
 title: "Parameter 31: Object-generated Harmful Factor"
 created: 2026-05-29
 number: 31

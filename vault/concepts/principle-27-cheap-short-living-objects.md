@@ -1,6 +1,6 @@
 ---
 id: principle-27-cheap-short-living-objects
-type: concept
+type: principle
 title: "Principle 27: Cheap Short-living Objects"
 created: 2026-05-29
 number: 27

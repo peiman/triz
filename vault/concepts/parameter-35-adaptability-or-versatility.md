@@ -1,6 +1,6 @@
 ---
 id: parameter-35-adaptability-or-versatility
-type: concept
+type: parameter
 title: "Parameter 35: Adaptability or Versatility"
 created: 2026-05-29
 number: 35

@@ -1,6 +1,6 @@
 ---
 id: parameter-05-area-of-moving-object
-type: concept
+type: parameter
 title: "Parameter 5: Area of Moving Object"
 created: 2026-05-29
 number: 5

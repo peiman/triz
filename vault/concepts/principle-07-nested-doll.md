@@ -1,6 +1,6 @@
 ---
 id: principle-07-nested-doll
-type: concept
+type: principle
 title: "Principle 7: Nested Doll"
 created: 2026-05-29
 number: 7

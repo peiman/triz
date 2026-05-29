@@ -1,6 +1,6 @@
 ---
 id: trend-s-curve-evolution
-type: concept
+type: tese-trend
 title: "TESE Trend: S-Curve Evolution"
 created: 2026-05-30
 confidence: high

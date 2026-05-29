@@ -1,9 +1,7 @@
-# Reference template for an Inventive Principle note (type: concept, tag: inventive-principle).
-# Principles are not a separate vaultmind type — they are `concept` notes with a
-# `number` (1-40) and this de-facto body shape. Filename: principle-NN-slug.md
+# Template for an Inventive Principle note. Filename: principle-NN-slug.md
 ---
 id: <%=id%>
-type: concept
+type: principle
 title: "Principle N: <%=title%>"
 created: <%=created%>
 number:

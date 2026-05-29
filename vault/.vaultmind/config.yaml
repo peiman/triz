@@ -25,6 +25,23 @@ types:
     optional: [aliases, tags, related_ids, source_ids, parent_id, confidence]
     statuses: []
     template: templates/case-study.md
+  # TRIZ-specific first-class types. `number` is REQUIRED on principle/parameter
+  # — the ordinal the CLI uses to map a matrix cell to a principle/parameter.
+  principle:
+    required: [title, number]
+    optional: [aliases, tags, related_ids, source_ids, parent_id, confidence]
+    statuses: []
+    template: templates/principle.md
+  parameter:
+    required: [title, number]
+    optional: [aliases, tags, related_ids, source_ids, parent_id, confidence]
+    statuses: []
+    template: templates/parameter.md
+  tese-trend:
+    required: [title]
+    optional: [aliases, tags, related_ids, source_ids, parent_id, confidence]
+    statuses: []
+    template: templates/trend.md
   person:
     required: [title]
     optional: [aliases, tags, related_ids, url]

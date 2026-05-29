@@ -1,6 +1,6 @@
 ---
 id: principle-19-periodic-action
-type: concept
+type: principle
 title: "Principle 19: Periodic Action"
 created: 2026-05-29
 number: 19

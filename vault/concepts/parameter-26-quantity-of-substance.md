@@ -1,6 +1,6 @@
 ---
 id: parameter-26-quantity-of-substance
-type: concept
+type: parameter
 title: "Parameter 26: Quantity of Substance"
 created: 2026-05-29
 number: 26

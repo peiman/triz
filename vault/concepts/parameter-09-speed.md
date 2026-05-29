@@ -1,6 +1,6 @@
 ---
 id: parameter-09-speed
-type: concept
+type: parameter
 title: "Parameter 9: Speed"
 created: 2026-05-29
 number: 9

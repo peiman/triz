@@ -1,6 +1,6 @@
 ---
 id: principle-39-inert-atmosphere
-type: concept
+type: principle
 title: "Principle 39: Inert Atmosphere"
 created: 2026-05-29
 number: 39

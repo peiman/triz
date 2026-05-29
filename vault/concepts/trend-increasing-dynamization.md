@@ -1,6 +1,6 @@
 ---
 id: trend-increasing-dynamization
-type: concept
+type: tese-trend
 title: "TESE Trend: Increasing Dynamization"
 created: 2026-05-30
 confidence: high

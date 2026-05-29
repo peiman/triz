@@ -1,6 +1,6 @@
 ---
 id: principle-38-strong-oxidants
-type: concept
+type: principle
 title: "Principle 38: Strong Oxidants"
 created: 2026-05-29
 number: 38

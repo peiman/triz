@@ -1,6 +1,6 @@
 ---
 id: principle-17-another-dimension
-type: concept
+type: principle
 title: "Principle 17: Another Dimension"
 created: 2026-05-29
 number: 17

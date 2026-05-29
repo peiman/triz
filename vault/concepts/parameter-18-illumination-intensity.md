@@ -1,6 +1,6 @@
 ---
 id: parameter-18-illumination-intensity
-type: concept
+type: parameter
 title: "Parameter 18: Illumination Intensity"
 created: 2026-05-29
 number: 18

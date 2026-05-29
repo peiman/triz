@@ -1,6 +1,6 @@
 ---
 id: parameter-37-difficulty-of-detecting-and-measuring
-type: concept
+type: parameter
 title: "Parameter 37: Difficulty of Detecting and Measuring"
 created: 2026-05-29
 number: 37

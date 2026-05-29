@@ -1,6 +1,6 @@
 ---
 id: trend-increasing-trimming
-type: concept
+type: tese-trend
 title: "TESE Trend: Increasing Degree of Trimming"
 created: 2026-05-30
 confidence: high

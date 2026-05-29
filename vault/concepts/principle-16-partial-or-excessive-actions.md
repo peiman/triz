@@ -1,6 +1,6 @@
 ---
 id: principle-16-partial-or-excessive-actions
-type: concept
+type: principle
 title: "Principle 16: Partial or Excessive Actions"
 created: 2026-05-29
 number: 16

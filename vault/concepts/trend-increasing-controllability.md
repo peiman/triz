@@ -1,6 +1,6 @@
 ---
 id: trend-increasing-controllability
-type: concept
+type: tese-trend
 title: "TESE Trend: Increasing Controllability"
 created: 2026-05-30
 confidence: high

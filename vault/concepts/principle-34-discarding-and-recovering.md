@@ -1,6 +1,6 @@
 ---
 id: principle-34-discarding-and-recovering
-type: concept
+type: principle
 title: "Principle 34: Discarding and Recovering"
 created: 2026-05-29
 number: 34

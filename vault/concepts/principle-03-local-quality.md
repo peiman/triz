@@ -1,6 +1,6 @@
 ---
 id: principle-03-local-quality
-type: concept
+type: principle
 title: "Principle 3: Local Quality"
 created: 2026-05-29
 number: 3

@@ -1,6 +1,6 @@
 ---
 id: principle-15-dynamics
-type: concept
+type: principle
 title: "Principle 15: Dynamics"
 created: 2026-05-29
 number: 15

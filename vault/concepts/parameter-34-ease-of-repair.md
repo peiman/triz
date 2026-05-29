@@ -1,6 +1,6 @@
 ---
 id: parameter-34-ease-of-repair
-type: concept
+type: parameter
 title: "Parameter 34: Ease of Repair"
 created: 2026-05-29
 number: 34

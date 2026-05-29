@@ -1,6 +1,6 @@
 ---
 id: principle-26-copying
-type: concept
+type: principle
 title: "Principle 26: Copying"
 created: 2026-05-29
 number: 26

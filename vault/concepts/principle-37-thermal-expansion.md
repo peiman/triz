@@ -1,6 +1,6 @@
 ---
 id: principle-37-thermal-expansion
-type: concept
+type: principle
 title: "Principle 37: Thermal Expansion"
 created: 2026-05-29
 number: 37

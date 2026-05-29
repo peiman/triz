@@ -1,6 +1,6 @@
 ---
 id: parameter-03-length-of-moving-object
-type: concept
+type: parameter
 title: "Parameter 3: Length of Moving Object"
 created: 2026-05-29
 number: 3

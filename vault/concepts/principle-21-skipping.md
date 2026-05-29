@@ -1,6 +1,6 @@
 ---
 id: principle-21-skipping
-type: concept
+type: principle
 title: "Principle 21: Skipping"
 created: 2026-05-29
 number: 21

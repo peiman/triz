@@ -1,6 +1,6 @@
 ---
 id: trend-increasing-coordination
-type: concept
+type: tese-trend
 title: "TESE Trend: Increasing Coordination"
 created: 2026-05-30
 confidence: high

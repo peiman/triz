@@ -1,6 +1,6 @@
 ---
 id: parameter-01-weight-of-moving-object
-type: concept
+type: parameter
 title: "Parameter 1: Weight of Moving Object"
 created: 2026-05-29
 number: 1

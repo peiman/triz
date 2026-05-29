@@ -1,6 +1,6 @@
 ---
 id: parameter-32-ease-of-manufacture
-type: concept
+type: parameter
 title: "Parameter 32: Ease of Manufacture"
 created: 2026-05-29
 number: 32

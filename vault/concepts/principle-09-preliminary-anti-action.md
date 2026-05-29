@@ -1,6 +1,6 @@
 ---
 id: principle-09-preliminary-anti-action
-type: concept
+type: principle
 title: "Principle 9: Preliminary Anti-action"
 created: 2026-05-29
 number: 9

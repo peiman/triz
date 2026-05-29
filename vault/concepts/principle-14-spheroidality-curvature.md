@@ -1,6 +1,6 @@
 ---
 id: principle-14-spheroidality-curvature
-type: concept
+type: principle
 title: "Principle 14: Spheroidality – Curvature"
 created: 2026-05-29
 number: 14

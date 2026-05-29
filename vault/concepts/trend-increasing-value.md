@@ -1,6 +1,6 @@
 ---
 id: trend-increasing-value
-type: concept
+type: tese-trend
 title: "TESE Trend: Increasing Value"
 created: 2026-05-30
 confidence: high

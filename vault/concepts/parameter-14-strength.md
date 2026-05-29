@@ -1,6 +1,6 @@
 ---
 id: parameter-14-strength
-type: concept
+type: parameter
 title: "Parameter 14: Strength"
 created: 2026-05-29
 number: 14

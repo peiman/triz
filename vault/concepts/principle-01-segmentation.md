@@ -1,6 +1,6 @@
 ---
 id: principle-01-segmentation
-type: concept
+type: principle
 title: "Principle 1: Segmentation"
 created: 2026-05-29
 number: 1

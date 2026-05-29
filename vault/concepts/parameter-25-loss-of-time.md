@@ -1,6 +1,6 @@
 ---
 id: parameter-25-loss-of-time
-type: concept
+type: parameter
 title: "Parameter 25: Loss of Time"
 created: 2026-05-29
 number: 25

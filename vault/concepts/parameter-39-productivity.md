@@ -1,6 +1,6 @@
 ---
 id: parameter-39-productivity
-type: concept
+type: parameter
 title: "Parameter 39: Productivity"
 created: 2026-05-29
 number: 39

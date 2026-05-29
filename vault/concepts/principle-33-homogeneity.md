@@ -1,6 +1,6 @@
 ---
 id: principle-33-homogeneity
-type: concept
+type: principle
 title: "Principle 33: Homogeneity"
 created: 2026-05-29
 number: 33

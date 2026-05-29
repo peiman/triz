@@ -1,6 +1,6 @@
 ---
 id: parameter-07-volume-of-moving-object
-type: concept
+type: parameter
 title: "Parameter 7: Volume of Moving Object"
 created: 2026-05-29
 number: 7

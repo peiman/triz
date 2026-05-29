@@ -1,6 +1,6 @@
 ---
 id: principle-12-equipotentiality
-type: concept
+type: principle
 title: "Principle 12: Equipotentiality"
 created: 2026-05-29
 number: 12

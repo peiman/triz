@@ -1,6 +1,6 @@
 ---
 id: trend-flow-enhancement
-type: concept
+type: tese-trend
 title: "TESE Trend: Flow Enhancement"
 created: 2026-05-30
 confidence: high

@@ -1,6 +1,6 @@
 ---
 id: parameter-17-temperature
-type: concept
+type: parameter
 title: "Parameter 17: Temperature"
 created: 2026-05-29
 number: 17

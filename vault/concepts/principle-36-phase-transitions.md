@@ -1,6 +1,6 @@
 ---
 id: principle-36-phase-transitions
-type: concept
+type: principle
 title: "Principle 36: Phase Transitions"
 created: 2026-05-29
 number: 36

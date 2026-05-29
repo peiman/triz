@@ -1,6 +1,6 @@
 ---
 id: principle-24-intermediary
-type: concept
+type: principle
 title: "Principle 24: Intermediary"
 created: 2026-05-29
 number: 24

@@ -1,6 +1,6 @@
 ---
 id: principle-30-flexible-shells-and-thin-films
-type: concept
+type: principle
 title: "Principle 30: Flexible Shells and Thin Films"
 created: 2026-05-29
 number: 30

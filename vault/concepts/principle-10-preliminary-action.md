@@ -1,6 +1,6 @@
 ---
 id: principle-10-preliminary-action
-type: concept
+type: principle
 title: "Principle 10: Preliminary Action"
 created: 2026-05-29
 number: 10

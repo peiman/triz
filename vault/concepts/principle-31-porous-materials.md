@@ -1,6 +1,6 @@
 ---
 id: principle-31-porous-materials
-type: concept
+type: principle
 title: "Principle 31: Porous Materials"
 created: 2026-05-29
 number: 31

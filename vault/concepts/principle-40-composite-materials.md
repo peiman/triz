@@ -1,6 +1,6 @@
 ---
 id: principle-40-composite-materials
-type: concept
+type: principle
 title: "Principle 40: Composite Materials"
 created: 2026-05-29
 number: 40

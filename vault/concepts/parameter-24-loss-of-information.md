@@ -1,6 +1,6 @@
 ---
 id: parameter-24-loss-of-information
-type: concept
+type: parameter
 title: "Parameter 24: Loss of Information"
 created: 2026-05-29
 number: 24

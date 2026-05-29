@@ -1,6 +1,6 @@
 ---
 id: trend-supersystem-transition
-type: concept
+type: tese-trend
 title: "TESE Trend: Transition to the Super-system"
 created: 2026-05-30
 confidence: high

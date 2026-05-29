@@ -1,6 +1,6 @@
 ---
 id: principle-35-parameter-changes
-type: concept
+type: principle
 title: "Principle 35: Parameter Changes"
 created: 2026-05-29
 number: 35

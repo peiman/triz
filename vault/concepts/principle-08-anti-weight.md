@@ -1,6 +1,6 @@
 ---
 id: principle-08-anti-weight
-type: concept
+type: principle
 title: "Principle 8: Anti-weight"
 created: 2026-05-29
 number: 8

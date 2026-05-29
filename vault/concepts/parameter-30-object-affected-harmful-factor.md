@@ -1,6 +1,6 @@
 ---
 id: parameter-30-object-affected-harmful-factor
-type: concept
+type: parameter
 title: "Parameter 30: Object-affected Harmful Factor"
 created: 2026-05-29
 number: 30

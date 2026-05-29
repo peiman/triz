@@ -1,6 +1,6 @@
 ---
 id: principle-06-universality
-type: concept
+type: principle
 title: "Principle 6: Universality"
 created: 2026-05-29
 number: 6

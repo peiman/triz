@@ -1,6 +1,6 @@
 ---
 id: parameter-33-ease-of-operation
-type: concept
+type: parameter
 title: "Parameter 33: Ease of Operation"
 created: 2026-05-29
 number: 33

@@ -1,6 +1,6 @@
 ---
 id: principle-04-asymmetry
-type: concept
+type: principle
 title: "Principle 4: Asymmetry"
 created: 2026-05-29
 number: 4

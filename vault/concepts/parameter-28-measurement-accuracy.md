@@ -1,6 +1,6 @@
 ---
 id: parameter-28-measurement-accuracy
-type: concept
+type: parameter
 title: "Parameter 28: Measurement Accuracy"
 created: 2026-05-29
 number: 28

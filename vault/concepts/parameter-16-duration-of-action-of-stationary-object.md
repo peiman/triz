@@ -1,6 +1,6 @@
 ---
 id: parameter-16-duration-of-action-of-stationary-object
-type: concept
+type: parameter
 title: "Parameter 16: Duration of Action of Stationary Object"
 created: 2026-05-29
 number: 16

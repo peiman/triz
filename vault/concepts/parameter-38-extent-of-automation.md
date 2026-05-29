@@ -1,6 +1,6 @@
 ---
 id: parameter-38-extent-of-automation
-type: concept
+type: parameter
 title: "Parameter 38: Extent of Automation"
 created: 2026-05-29
 number: 38

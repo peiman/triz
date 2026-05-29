@@ -1,6 +1,6 @@
 ---
 id: parameter-22-loss-of-energy
-type: concept
+type: parameter
 title: "Parameter 22: Loss of Energy"
 created: 2026-05-29
 number: 22

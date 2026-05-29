@@ -1,6 +1,6 @@
 ---
 id: trend-uneven-development
-type: concept
+type: tese-trend
 title: "TESE Trend: Uneven Development of System Components"
 created: 2026-05-30
 confidence: high

@@ -1,6 +1,6 @@
 ---
 id: principle-02-taking-out
-type: concept
+type: principle
 title: "Principle 2: Taking Out"
 created: 2026-05-29
 number: 2

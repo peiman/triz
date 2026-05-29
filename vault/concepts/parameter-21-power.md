@@ -1,6 +1,6 @@
 ---
 id: parameter-21-power
-type: concept
+type: parameter
 title: "Parameter 21: Power"
 created: 2026-05-29
 number: 21

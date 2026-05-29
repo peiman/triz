@@ -1,6 +1,6 @@
 ---
 id: principle-23-feedback
-type: concept
+type: principle
 title: "Principle 23: Feedback"
 created: 2026-05-29
 number: 23

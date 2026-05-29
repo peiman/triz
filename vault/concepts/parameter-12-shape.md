@@ -1,6 +1,6 @@
 ---
 id: parameter-12-shape
-type: concept
+type: parameter
 title: "Parameter 12: Shape"
 created: 2026-05-29
 number: 12

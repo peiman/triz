@@ -1,6 +1,6 @@
 ---
 id: parameter-20-use-of-energy-by-stationary-object
-type: concept
+type: parameter
 title: "Parameter 20: Use of Energy by Stationary Object"
 created: 2026-05-29
 number: 20

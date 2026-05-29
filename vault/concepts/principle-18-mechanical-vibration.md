@@ -1,6 +1,6 @@
 ---
 id: principle-18-mechanical-vibration
-type: concept
+type: principle
 title: "Principle 18: Mechanical Vibration"
 created: 2026-05-29
 number: 18

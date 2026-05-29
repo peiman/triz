@@ -1,9 +1,7 @@
-# Reference template for an Engineering Parameter note (type: concept, tag: engineering-parameter).
-# Parameters are not a separate vaultmind type — they are `concept` notes with a
-# `number` (1-39) and this de-facto body shape. Filename: parameter-NN-slug.md
+# Template for an Engineering Parameter note. Filename: parameter-NN-slug.md
 ---
 id: <%=id%>
-type: concept
+type: parameter
 title: "Parameter N: <%=title%>"
 created: <%=created%>
 number:

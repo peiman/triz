@@ -1,6 +1,6 @@
 ---
 id: principle-05-merging
-type: concept
+type: principle
 title: "Principle 5: Merging"
 created: 2026-05-29
 number: 5

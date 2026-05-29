@@ -1,6 +1,6 @@
 ---
 id: principle-25-self-service
-type: concept
+type: principle
 title: "Principle 25: Self-service"
 created: 2026-05-29
 number: 25

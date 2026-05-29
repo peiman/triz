@@ -1,6 +1,6 @@
 ---
 id: principle-22-blessing-in-disguise
-type: concept
+type: principle
 title: "Principle 22: Blessing in Disguise"
 created: 2026-05-29
 number: 22

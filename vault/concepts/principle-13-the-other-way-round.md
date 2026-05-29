@@ -1,6 +1,6 @@
 ---
 id: principle-13-the-other-way-round
-type: concept
+type: principle
 title: "Principle 13: The Other Way Round"
 created: 2026-05-29
 number: 13

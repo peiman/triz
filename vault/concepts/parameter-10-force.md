@@ -1,6 +1,6 @@
 ---
 id: parameter-10-force
-type: concept
+type: parameter
 title: "Parameter 10: Force (Intensity)"
 created: 2026-05-29
 number: 10

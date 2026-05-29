@@ -1,6 +1,6 @@
 ---
 id: principle-28-mechanics-substitution
-type: concept
+type: principle
 title: "Principle 28: Mechanics Substitution"
 created: 2026-05-29
 number: 28
