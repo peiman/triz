@@ -46,12 +46,29 @@ vaultmind ask "contradiction matrix" --vault vault --pointers-only
 vaultmind note get concept-contradiction-matrix     # tracked read
 
 # Re-index after editing notes (incremental; --full to rebuild)
-just vault-index            # = vaultmind index --embed --model minilm --vault vault
+just vault-index            # = vaultmind index --embed --model bge-m3 --vault vault
 
 # Health (unresolved links, embedding coverage, Obsidian-incompatible links)
 vaultmind doctor --vault vault
 vaultmind lint --fix-links  # bulk-fix wikilinks
 ```
+
+## Embedding model
+
+This vault is embedded with **bge-m3** (hybrid dense + sparse + ColBERT), which
+gives meaningfully better-calibrated retrieval confidence than the pure-Go
+`minilm` default. bge-m3 requires an **ORT-tagged** vaultmind binary:
+
+```bash
+# one-time, in the vaultmind source repo:
+bash .claude/scripts/setup-ort.sh   # needs onnxruntime (e.g. brew install onnxruntime)
+task build:ort                      # produces an ORT-tagged binary
+```
+
+The ORT binary is a superset (does minilm too) and is installed as the default
+`~/go/bin/vaultmind` here. If you only have the pure-Go binary, switch the
+`just vault-*` targets back to `--model minilm` — queries still work, but
+bge-m3 *indexing* on pure-Go is hour-slow.
 
 The four vaultmind hooks (recall on prompt, context at session start, read
 tracking, episode capture) are wired in `.claude/settings.json` and point at
