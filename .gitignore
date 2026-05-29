@@ -1,0 +1,12 @@
+/target
+
+# VaultMind local index/state (regenerable per-project)
+.vaultmind/
+
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Vendored spec requirements (fetched at runtime, cached locally)
+conformance/requirements.json

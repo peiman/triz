@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt, llvm-tools-preview
+
+      - name: Cache cargo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+      - name: Install just
+        run: cargo install just --locked
+
+      - name: Install cargo-deny
+        run: cargo install cargo-deny --locked
+
+      # SSOT: `just check` is the single gateway.
+      # Same checks run locally (lefthook + just) and in CI.
+      # If you add a check, add it to Justfile — CI picks it up automatically.
+      - name: Run all checks
+        run: just check
