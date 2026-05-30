@@ -1,7 +1,7 @@
 ---
 id: decision-cli-service-strategy
 type: decision
-status: accepted
+status: superseded
 title: "triz CLI service strategy & ship-first"
 created: 2026-05-30
 tags:
@@ -16,6 +16,14 @@ related_ids:
   - case-study-pcr-diagnostics
 source_ids: []
 ---
+
+> **Superseded 2026-05-30.** The user reframed the vision toward an **agent-native,
+> guided TRIZ substrate for inventive product development** (composable skills → jobs),
+> with the classical Contradiction Matrix **demoted to optional/legacy** — corroborated
+> by [[source-opensourcetriz|opensourcetriz.com]] (a 25-year practitioner resource that
+> rejects the matrix as antiquated). This dissolves the matrix licensing/transcription
+> critical path. A replacement ADR follows the v2 strategy deliberation. The
+> data-first/SoC and honesty principles below still hold.
 
 ## Context
 
