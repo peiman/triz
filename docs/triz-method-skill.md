@@ -52,11 +52,20 @@ outcome, what gets worse or stops you?"
   separate **in time / in space / upon condition / between system levels (parts vs
   whole)**. Walk them in order; each has a familiar pattern (retractable landing gear
   = time; sharp-edge/thick-spine knife = space; sieve = condition; bicycle chain =
-  system level).
+  system level). *Software analogues:* in time = lazy evaluation / cache warming /
+  feature-flag rollout; in space = sharding / microservices / edge vs origin; upon
+  condition = strategy pattern / polymorphic dispatch / responsive breakpoints;
+  between levels = interface vs implementation / protocol layering.
 - **(c) A function is missing / harmful / weak with no clear trade-off** →
   do **Function analysis + cause-effect chain first** (`concept-function-analysis`),
   to find the *real* contradiction before solving. Analysis is not failure to solve;
   it is finding the right problem.
+- **(software / UX / organizational):** if the problem is digital, service, or
+  organizational — **skip parameter mapping and the matrix entirely** (they are
+  engineering-domain artifacts that add noise here; experiment P4, and external work
+  confirms no canonical software matrix exists). Derive the contradiction *causally*
+  (what worsens when you push the desired improvement?) and resolve via **separation
+  principles** directly. Separation, not the matrix, is the software contradiction engine.
 - **GUARD:** if the improving and worsening feature are the **same** parameter, it is
   a **physical** contradiction — reroute to (b). Solvers miss this constantly.
 - "I can't answer S3" is valid → start with function analysis.
@@ -64,7 +73,9 @@ outcome, what gets worse or stops you?"
 **S4 — RESOURCES.** Before generating solutions, inventory what is already present —
 substances, fields, space, time, waste, voids, the super-system
 (`concept-resources`). High-ideality solutions are built from free, existing
-resources.
+resources. *For software:* existing data/telemetry, idle compute, caches, logs,
+user context, network effects, latency windows, existing APIs/libraries, and
+configuration already present.
 
 **S5 — SOLVE + CHECK.** Generate directions from the matched tool. Then check each
 against the S2 IFR: did it eliminate the contradiction (not split the difference)?
@@ -83,6 +94,29 @@ Did it create a secondary problem? Reject compromises masquerading as solutions.
 | Need a generalized heuristic | 40 Inventive Principles as a checklist | `concept-40-inventive-principles` |
 | Forecasting where a product should go next | Laws/trends of evolution, ideality, super-system | `concept-laws-of-engineering-system-evolution` |
 | Genuinely novel / hard, nothing else worked | ARIZ (opt-in, heavyweight) | `concept-ariz-85c-walkthrough` |
+
+## Software, UX & digital products (the honest adaptation)
+
+Classical TRIZ was built from mechanical patents; the 39 parameters and the matrix
+are a poor fit for software and don't have a canonical software replacement. Use the
+*domain-independent* parts of the method, which transfer cleanly:
+- **Separation** is the primary resolution path (see the software analogues at S3(b)).
+- **Ideality / IFR** — the ideal feature delivers its benefit with no UI, no user
+  effort, no added cost (functionality without the machine).
+- **Function analysis + trimming** — in software, functions *are* the system; "the
+  best part is no part" maps directly (remove a module / service / option / config).
+- **Resources** — software is resource-rich (data, telemetry, caches, idle compute).
+
+The 40 principles, read as a software brainstorming checklist (use *after* IFR +
+separation, never as the answer): Segmentation → modular decomposition / microservices;
+Local quality → per-case handling; Asymmetry → break uniform structure; Nested doll →
+recursion / middleware stacking; Prior action → precompute / cache warming; Periodic
+action → polling / batching; Feedback → closed-loop observability / control; Intermediary
+→ middleware / API gateway / broker; Self-service → auto-configuring / self-healing;
+Copying → caching / virtualization / mocking; Cheap-disposable → throwaway prototypes /
+ephemeral infra; Dynamics → runtime config / feature flags; Discarding & recovering →
+garbage collection / transaction rollback. (Some principles, e.g. pneumatics/hydraulics
+and thermal/phase ones, have no software analogue — don't force them.)
 
 ## Product development "with TRIZ from the start"
 
