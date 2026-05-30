@@ -78,6 +78,40 @@ machine / 6 jobs / 12 skills are worth building. Per [[concept-ideality|ideality
 if a system prompt achieves the IFR, `triz` has trimmed itself out of existence —
 which is the ideal outcome. Test it.
 
+## Experiment result (2026-05-30) — VALIDATED, and it changed the plan
+
+The mandated A/B/C core-premise experiment was run (blind, closed-book, 4 problems
+incl. 2 novel product-dev ones; see `docs/triz-experiment-core-premise.md`):
+**A-bare 24.5 · B-prompt 29.5 · C-tool 29.25 → B/C = 101%.** Both TRIZ conditions
+beat the bare LLM by ~20% (the method matters), but **B (an LLM + a good TRIZ
+system prompt) is indistinguishable from C (the deterministic tool)** — far past the
+80%-build-only-the-thin-core threshold. The tool's unique value is **thin and
+situational**: deterministic parameter-mapping/classification prevented errors and
+won the novel mechanical case P3 (+6, on rigor + auditable trail), but solution
+generation was *better* without rigidity (B>C), the deterministic router **failed**
+the highest-leverage decision (P2: none routed to su-field), and parameter-mapping
+was **useless for the software problem** (P4 — the honest "(none)" skip scored
+highest). The IFR gate + anti-compromise discipline (claimed tool value) were fully
+achieved by the system prompt. Per [[concept-ideality]]: a system prompt achieves
+the IFR → the tool has largely **trimmed itself out of existence**, which IS ideal.
+
+**Revised build order (evidence-based):**
+1. **Ship the TRIZ method as a versioned system-prompt / skill artifact** (markdown).
+   The only clearly-validated, highest-value, trivial-effort deliverable. This is the
+   agent-native + "guide anyone" vision, delivered as a prompt, not a binary.
+2. **Parameter alias thesaurus as a standalone JSON** — the one unique data asset
+   (prevents LLM param-mapping errors), but engineering-only (no help for software/UX).
+3. **`parameter-search` + `formulate-contradiction` as a minimal CLI/MCP** — only if
+   the thesaurus blind-test passes; for agent pipelines needing deterministic,
+   auditable mapping.
+4. **Do NOT build** (the experiment killed these): the guidance state machine, the
+   spine-as-FSM, the 6 jobs, the 12 skills, function-analysis/trimming engines, ARIZ
+   escalation. A system prompt does them to equal quality.
+
+Confidence: moderate (N=4, single model family, recall confound on documented cases,
+C was simulated). The full tool is clearly not justified; the thin core (param-search)
+rests mainly on P3 — a low-cost bet, not strongly validated.
+
 ## Consequences
 
 - First work is a **2-hour experiment + the alias thesaurus**, not code — fits the
