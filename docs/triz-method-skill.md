@@ -3,6 +3,9 @@
 > The validated #1 deliverable. The A/B/C experiment
 > (`docs/triz-experiment-core-premise.md`) showed that an agent following this method
 > matches a purpose-built deterministic tool and beats an un-guided agent by ~20%.
+> A follow-up blind test (`docs/triz-skill-blind-test.md`) showed this skill's **software
+> lane** beats a generic TRIZ prompt by +11/40 on software problems (and prevents the
+> matrix-misuse that makes a generic TRIZ prompt *worse than no TRIZ* there).
 > This file IS the product's core: a versioned, composable instruction set that makes
 > any capable agent (or person) do rigorous inventive TRIZ on a new problem. Use it as
 > a system prompt, a Claude Code skill, or an MCP-served instruction.
