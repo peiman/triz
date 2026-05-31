@@ -1,0 +1,582 @@
+{
+  "$schema_note": "TRIZ 39 Engineering Parameters with a curated engineer-vocabulary alias thesaurus. ENGINEERING-DOMAIN ONLY — these parameters and the contradiction matrix do not fit software/UX/organizational problems (use separation principles + function analysis there). Source: classical Altshuller parameter set; names/glosses verified against MATRIZ. Aliases are original (this project).",
+  "domain": "engineering/physical only",
+  "parameters": [
+    {
+      "number": 1,
+      "name": "Weight of moving object",
+      "gloss": "Mass of a movable object; the force it exerts in motion.",
+      "aliases": [
+        "curb weight",
+        "gross weight",
+        "heaviness",
+        "heavy",
+        "heft",
+        "how heavy",
+        "lightweight",
+        "mass",
+        "moving mass",
+        "payload"
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Weight of stationary object",
+      "gloss": "Mass of a non-moving object.",
+      "aliases": [
+        "anchor weight",
+        "dead load",
+        "dead weight",
+        "fixture weight",
+        "heaviness",
+        "heavy",
+        "how heavy",
+        "self weight",
+        "static mass",
+        "structure weight",
+        "tare weight"
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Length of moving object",
+      "gloss": "A linear dimension of a movable object.",
+      "aliases": [
+        "extension",
+        "overall length",
+        "reach",
+        "span",
+        "stroke length",
+        "travel distance",
+        "wheelbase"
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Length of stationary object",
+      "gloss": "A linear dimension of a stationary object.",
+      "aliases": [
+        "fixed length",
+        "fixed span",
+        "footprint length",
+        "frame length",
+        "rail length",
+        "standoff distance"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Area of moving object",
+      "gloss": "Surface/area of a movable object.",
+      "aliases": [
+        "blade area",
+        "contact patch",
+        "frontal area",
+        "surface area",
+        "swept area",
+        "wetted area",
+        "wing area"
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Area of stationary object",
+      "gloss": "Surface/area of a stationary object.",
+      "aliases": [
+        "bench area",
+        "coverage area",
+        "floor area",
+        "floor space",
+        "land footprint",
+        "panel area",
+        "wall area"
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Volume of moving object",
+      "gloss": "Cubic space occupied by a movable object.",
+      "aliases": [
+        "bulk",
+        "cargo capacity",
+        "displacement",
+        "packing volume",
+        "size envelope",
+        "swept volume"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Volume of stationary object",
+      "gloss": "Cubic space occupied by a stationary object.",
+      "aliases": [
+        "chamber size",
+        "container capacity",
+        "enclosure volume",
+        "headspace",
+        "reservoir size",
+        "storage capacity",
+        "tank volume"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Speed",
+      "gloss": "Velocity of an object or the rate of a process.",
+      "aliases": [
+        "acceleration",
+        "cycle speed",
+        "feed rate",
+        "flow rate",
+        "rpm",
+        "throughput rate",
+        "velocity"
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Force (Intensity)",
+      "gloss": "Any interaction intended to change an object's state.",
+      "aliases": [
+        "actuation force",
+        "clamping force",
+        "force",
+        "grip force",
+        "load",
+        "thrust",
+        "torque"
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Stress or Pressure",
+      "gloss": "Force per unit area; tension.",
+      "aliases": [
+        "compression",
+        "contact stress",
+        "hoop stress",
+        "preload",
+        "pressure",
+        "psi",
+        "stress",
+        "tension"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Shape",
+      "gloss": "External contours or appearance.",
+      "aliases": [
+        "contour",
+        "cross-section",
+        "curvature",
+        "form factor",
+        "geometry",
+        "profile",
+        "silhouette"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Stability of the object's composition",
+      "gloss": "Wholeness and integrity of the system and its elements.",
+      "aliases": [
+        "balance",
+        "delamination",
+        "phase stability",
+        "settling",
+        "stability",
+        "structural integrity",
+        "wholeness"
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Strength",
+      "gloss": "Resistance to changing under an applied force.",
+      "aliases": [
+        "durability",
+        "durable",
+        "fatigue resistance",
+        "load capacity",
+        "rigidity",
+        "stiffness",
+        "toughness",
+        "ultimate strength",
+        "yield strength"
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Duration of action of moving object",
+      "gloss": "How long a movable object keeps performing; service life.",
+      "aliases": [
+        "cycle life",
+        "durability",
+        "endurance",
+        "lifespan",
+        "lifetime",
+        "longevity",
+        "mileage",
+        "operating life",
+        "runtime",
+        "service life",
+        "useful life",
+        "wear life"
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Duration of action of stationary object",
+      "gloss": "Service life of a stationary object.",
+      "aliases": [
+        "corrosion life",
+        "design life",
+        "durability",
+        "fatigue life",
+        "lifespan",
+        "lifetime",
+        "longevity",
+        "shelf life",
+        "standby life",
+        "useful life"
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Temperature",
+      "gloss": "Thermal condition of the system.",
+      "aliases": [
+        "cooling",
+        "hot spot",
+        "operating temp",
+        "overheating",
+        "thermal",
+        "thermal load"
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Illumination intensity",
+      "gloss": "Light flux per unit area; lighting quality.",
+      "aliases": [
+        "backlight",
+        "brightness",
+        "glare",
+        "illumination",
+        "light level",
+        "lumens",
+        "luminance",
+        "lux"
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Use of energy by moving object",
+      "gloss": "Energy a movable object consumes to do its work.",
+      "aliases": [
+        "battery drain",
+        "current draw",
+        "energy use",
+        "fuel economy",
+        "mpg",
+        "power consumption",
+        "power draw"
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Use of energy by stationary object",
+      "gloss": "Energy a stationary object consumes.",
+      "aliases": [
+        "holding current",
+        "idle consumption",
+        "kwh",
+        "parasitic draw",
+        "phantom load",
+        "standby power",
+        "vampire load"
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Power",
+      "gloss": "Rate at which work is performed; rate of energy use.",
+      "aliases": [
+        "duty rating",
+        "horsepower",
+        "kw rating",
+        "output power",
+        "power density",
+        "rate of work",
+        "wattage"
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Loss of energy",
+      "gloss": "Energy not contributing to useful work.",
+      "aliases": [
+        "dissipation",
+        "energy loss",
+        "friction loss",
+        "heat loss",
+        "i2r loss",
+        "inefficiency",
+        "parasitic loss",
+        "waste heat"
+      ]
+    },
+    {
+      "number": 23,
+      "name": "Loss of substance",
+      "gloss": "Partial or total loss of a system's materials.",
+      "aliases": [
+        "evaporation loss",
+        "leakage",
+        "material loss",
+        "scrap",
+        "spillage",
+        "wear debris",
+        "yield loss"
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Loss of information",
+      "gloss": "Loss of data or access to it.",
+      "aliases": [
+        "data corruption",
+        "data loss",
+        "dropped packets",
+        "lost records",
+        "signal loss",
+        "telemetry gaps",
+        "traceability gap"
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Loss of time",
+      "gloss": "Wasted time; interval beyond the ideal minimum.",
+      "aliases": [
+        "bottleneck",
+        "cycle time",
+        "delay",
+        "downtime",
+        "latency",
+        "lead time",
+        "setup time",
+        "wait time"
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Quantity of substance",
+      "gloss": "Amount or number of materials/subsystems.",
+      "aliases": [
+        "amount of material",
+        "bill of materials",
+        "consumables",
+        "dosage",
+        "fill level",
+        "material quantity",
+        "part count"
+      ]
+    },
+    {
+      "number": 27,
+      "name": "Reliability",
+      "gloss": "Ability to perform its functions predictably.",
+      "aliases": [
+        "consistency",
+        "dependability",
+        "durability",
+        "failure rate",
+        "fault tolerance",
+        "longevity",
+        "mtbf",
+        "robustness",
+        "uptime"
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Measurement accuracy",
+      "gloss": "Closeness of a measured value to the true value.",
+      "aliases": [
+        "accuracy",
+        "calibration",
+        "measurement error",
+        "repeatability",
+        "resolution",
+        "sensor accuracy",
+        "sensor drift"
+      ]
+    },
+    {
+      "number": 29,
+      "name": "Manufacturing precision",
+      "gloss": "Degree actual characteristics match the specification.",
+      "aliases": [
+        "dimensional accuracy",
+        "fit and finish",
+        "machining precision",
+        "out of spec",
+        "process capability",
+        "spec conformance",
+        "tolerance"
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Object-affected harmful factor",
+      "gloss": "Susceptibility to externally generated harm.",
+      "aliases": [
+        "contamination",
+        "corrosion",
+        "environmental exposure",
+        "interference",
+        "susceptibility",
+        "uv damage",
+        "vibration sensitivity"
+      ]
+    },
+    {
+      "number": 31,
+      "name": "Object-generated harmful factor",
+      "gloss": "Harm the object itself generates as it operates.",
+      "aliases": [
+        "byproduct",
+        "emissions",
+        "harmful byproduct",
+        "noise",
+        "off-gassing",
+        "pollution",
+        "self heating",
+        "side effects",
+        "unintended consequence",
+        "unwanted output",
+        "vibration"
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Ease of manufacture",
+      "gloss": "Convenience of fabricating or assembling.",
+      "aliases": [
+        "build cost",
+        "buildability",
+        "cost to build",
+        "dfm",
+        "ease of assembly",
+        "fabrication cost",
+        "machinability",
+        "manufacturability",
+        "manufacturing cost",
+        "moldability",
+        "producibility",
+        "production cost"
+      ]
+    },
+    {
+      "number": 33,
+      "name": "Ease of operation",
+      "gloss": "Simplicity of operation; few steps/operators/tools.",
+      "aliases": [
+        "ease of use",
+        "ergonomics",
+        "few steps",
+        "intuitive",
+        "operability",
+        "usability",
+        "user friendly"
+      ]
+    },
+    {
+      "number": 34,
+      "name": "Ease of repair",
+      "gloss": "Convenience, time, and cost of fixing faults.",
+      "aliases": [
+        "downtime to repair",
+        "field replaceable",
+        "field service",
+        "maintainability",
+        "repairability",
+        "serviceability",
+        "time to fix"
+      ]
+    },
+    {
+      "number": 35,
+      "name": "Adaptability or versatility",
+      "gloss": "Responds to change; usable in multiple ways.",
+      "aliases": [
+        "adaptability",
+        "configurable",
+        "flexibility",
+        "modular",
+        "multipurpose",
+        "reconfigurable",
+        "versatility"
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Device complexity",
+      "gloss": "Number and diversity of elements and interrelations.",
+      "aliases": [
+        "complexity",
+        "interdependencies",
+        "intricacy",
+        "moving parts",
+        "number of components",
+        "part count",
+        "system complexity"
+      ]
+    },
+    {
+      "number": 37,
+      "name": "Difficulty of detecting and measuring",
+      "gloss": "Complexity and cost of monitoring and measuring.",
+      "aliases": [
+        "diagnosability",
+        "hard to measure",
+        "inspectability",
+        "instrumentation cost",
+        "monitoring difficulty",
+        "observability",
+        "testability"
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Extent of automation",
+      "gloss": "Degree the system runs without human intervention.",
+      "aliases": [
+        "automate",
+        "automated",
+        "automation",
+        "autonomy",
+        "hands-free",
+        "human in the loop",
+        "manual intervention",
+        "self-operating",
+        "unattended operation"
+      ]
+    },
+    {
+      "number": 39,
+      "name": "Productivity",
+      "gloss": "Useful output or operations per unit time.",
+      "aliases": [
+        "capacity",
+        "output rate",
+        "production rate",
+        "throughput",
+        "units per hour",
+        "yield"
+      ]
+    }
+  ]
+}
