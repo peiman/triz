@@ -1,0 +1,961 @@
+{
+  "$schema_note": "The 40 TRIZ Inventive Principles with sub-principles and examples. Names/sub-principles from the de-facto-standard English set (Tate & Domb 1997); examples are classic. Original synthesis from this project's vault. For software, read these as a brainstorming checklist AFTER IFR + separation (see concept-software-triz-adaptation), not via the contradiction matrix.",
+  "principles": [
+    {
+      "number": 1,
+      "name": "Segmentation",
+      "aliases": [
+        "Segmentation"
+      ],
+      "summary": "Inventive Principle #1 of the 40 Inventive Principles: divide a system into independent or finer parts.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Divide an object into independent parts."
+        },
+        {
+          "letter": "b",
+          "text": "Make an object easy to disassemble."
+        },
+        {
+          "letter": "c",
+          "text": "Increase the degree of fragmentation or segmentation."
+        }
+      ],
+      "examples": [
+        "Replace a mainframe with networked personal computers (a).",
+        "Replace solid shades with Venetian blinds (c)."
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Taking Out",
+      "aliases": [
+        "Taking out",
+        "Extraction",
+        "Separation"
+      ],
+      "summary": "Inventive Principle #2 (triz.org variant: \"Extraction\"): separate out an interfering part/property, or keep only the necessary part.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Separate an interfering part or property from an object, or single out the"
+        }
+      ],
+      "examples": [
+        "Locate a noisy compressor outside the building where the compressed air is used.",
+        "Use the sound of a barking dog (without the dog) as a burglar alarm."
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Local Quality",
+      "aliases": [
+        "Local quality"
+      ],
+      "summary": "Inventive Principle #3 of the 40 Inventive Principles: make different parts (or regions) non-uniform so each is suited to its role.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Change an object's structure (or its environment/influence) from uniform to"
+        },
+        {
+          "letter": "b",
+          "text": "Make each part of an object function in the conditions most suitable for its"
+        },
+        {
+          "letter": "c",
+          "text": "Make each part fulfill a different and useful function."
+        }
+      ],
+      "examples": [
+        "Use a temperature, density, or pressure gradient instead of a constant one (a).",
+        "Pencil with eraser; hammer with nail-puller (c)."
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Asymmetry",
+      "aliases": [
+        "Asymmetry"
+      ],
+      "summary": "Inventive Principle #4 of the 40 Inventive Principles: break or increase asymmetry in an object's shape.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Change the shape of an object from symmetrical to asymmetrical."
+        },
+        {
+          "letter": "b",
+          "text": "If an object is already asymmetrical, increase its degree of asymmetry."
+        }
+      ],
+      "examples": [
+        "Asymmetrical mixing vessels / asymmetrical vanes improve mixing (cement trucks,",
+        "Change circular O-rings to oval or specialized cross-sections to improve"
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Merging",
+      "aliases": [
+        "Merging",
+        "Consolidation"
+      ],
+      "summary": "Inventive Principle #5 (triz.org variant: \"Consolidation\"): bring identical or similar objects/operations together in space or time.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Bring closer together (or merge) identical or similar objects; assemble"
+        },
+        {
+          "letter": "b",
+          "text": "Make operations contiguous or parallel; bring them together in time."
+        }
+      ],
+      "examples": [
+        "Thousands of microprocessors in a parallel-processor computer (a).",
+        "Link slats together in Venetian or vertical blinds (b)."
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Universality",
+      "aliases": [
+        "Universality"
+      ],
+      "summary": "Inventive Principle #6 of the 40 Inventive Principles: make a part perform multiple functions, eliminating other parts.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Make a part or object perform multiple functions; eliminate the need for"
+        }
+      ],
+      "examples": [
+        "The handle of a toothbrush contains toothpaste.",
+        "A child's car safety seat converts to a stroller."
+      ]
+    },
+    {
+      "number": 7,
+      "name": "Nested Doll",
+      "aliases": [
+        "Nested doll",
+        "Nesting",
+        "Matryoshka"
+      ],
+      "summary": "Inventive Principle #7 (triz.org variant: \"Nesting\"): place objects inside one another, or pass one through a cavity in another.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Place one object inside another; place each, in turn, inside the next."
+        },
+        {
+          "letter": "b",
+          "text": "Make one part pass through a cavity in the other."
+        }
+      ],
+      "examples": [
+        "Russian nesting dolls; stacking measuring cups (a).",
+        "Extending radio antenna; retractable aircraft landing gear stowed in the"
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Anti-weight",
+      "aliases": [
+        "Anti-weight",
+        "Counterweight"
+      ],
+      "summary": "Inventive Principle #8 (triz.org variant: \"Counterweight\"): compensate an object's weight by merging it with a lifting force or the environment.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "To compensate for the weight of an object, merge it with other objects that"
+        },
+        {
+          "letter": "b",
+          "text": "To compensate for the weight of an object, make it interact with the"
+        }
+      ],
+      "examples": [
+        "Use a helium balloon to support advertising signs (a).",
+        "A wing's shape creates lift by altering air density above/below it (b — also"
+      ]
+    },
+    {
+      "number": 9,
+      "name": "Preliminary Anti-action",
+      "aliases": [
+        "Preliminary anti-action",
+        "Prior counteraction"
+      ],
+      "summary": "Inventive Principle #9 (triz.org variant: \"Prior Counteraction\"): pre-apply an opposing action or stress to neutralize a future harmful effect.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "If an action has both harmful and useful effects, replace it with"
+        },
+        {
+          "letter": "b",
+          "text": "Create beforehand stresses in an object that will oppose known undesirable"
+        }
+      ],
+      "examples": [
+        "Buffer a solution to prevent harm from extremes of pH (a).",
+        "Pre-stress rebar before pouring concrete (b)."
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Preliminary Action",
+      "aliases": [
+        "Preliminary action",
+        "Prior action"
+      ],
+      "summary": "Inventive Principle #10 (triz.org variant: \"Prior Action\"): perform a required change, or pre-position objects, before they are needed.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Perform, before it is needed, the required change of an object (fully or"
+        },
+        {
+          "letter": "b",
+          "text": "Pre-arrange objects so they can act from the most convenient place without"
+        }
+      ],
+      "examples": [
+        "Pre-pasted wallpaper (a).",
+        "Kanban arrangements in a Just-In-Time factory (b)."
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Beforehand Cushioning",
+      "aliases": [
+        "Beforehand cushioning",
+        "Cushion in advance"
+      ],
+      "summary": "Inventive Principle #11 (triz.org variant: \"Cushion in Advance\"): prepare emergency means in advance to offset a system's low reliability.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Prepare emergency means beforehand to compensate for the relatively low"
+        }
+      ],
+      "examples": [
+        "A back-up parachute.",
+        "A magnetic strip on photographic film directing the developer to compensate"
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Equipotentiality",
+      "aliases": [
+        "Equipotentiality"
+      ],
+      "summary": "Inventive Principle #12 of the 40 Inventive Principles: in a potential field, avoid the need to change an object's position.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "In a potential field, limit position changes (e.g. change operating"
+        }
+      ],
+      "examples": [
+        "Canal locks move boats between water levels (Panama Canal).",
+        "\"Skillets\" in an auto plant bring tools to the right working height (also"
+      ]
+    },
+    {
+      "number": 13,
+      "name": "The Other Way Round",
+      "aliases": [
+        "The other way round",
+        "Inversion",
+        "Do it in reverse"
+      ],
+      "summary": "Inventive Principle #13 (triz.org variant: \"Do It in Reverse\"): invert the action, fixity, or orientation.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Invert the action used to solve the problem (e.g. heat instead of cool)."
+        },
+        {
+          "letter": "b",
+          "text": "Make movable parts (or environment) fixed, and fixed parts movable."
+        },
+        {
+          "letter": "c",
+          "text": "Turn the object or process upside down."
+        }
+      ],
+      "examples": [
+        "To loosen stuck parts, cool the inner part instead of heating the outer (a).",
+        "A moving sidewalk with standing people; a treadmill for walking in place (b)."
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Spheroidality – Curvature",
+      "aliases": [
+        "Spheroidality",
+        "Curvature"
+      ],
+      "summary": "Inventive Principle #14 of the 40 Inventive Principles: replace straight lines/flat surfaces with curves, spheres, and rotary motion.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use curvilinear parts instead of rectilinear ones; move from flat to"
+        },
+        {
+          "letter": "b",
+          "text": "Use rollers, balls, spirals, domes."
+        },
+        {
+          "letter": "c",
+          "text": "Go from linear to rotary motion; use centrifugal force."
+        }
+      ],
+      "examples": [
+        "Arches and domes for strength in architecture (a).",
+        "Spin clothes to remove water instead of wringing (c)."
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Dynamics",
+      "aliases": [
+        "Dynamics",
+        "Dynamicity",
+        "Dynamization"
+      ],
+      "summary": "Inventive Principle #15 (triz.org variant: \"Dynamicity\"): let characteristics change to stay optimal; make rigid things movable/adaptive. Closely tied to the trend of increasing dynamization.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Allow (or design) characteristics of an object/environment/process to change"
+        },
+        {
+          "letter": "b",
+          "text": "Divide an object into parts capable of moving relative to each other."
+        },
+        {
+          "letter": "c",
+          "text": "If an object or process is rigid or inflexible, make it movable or adaptive."
+        }
+      ],
+      "examples": [
+        "Adjustable steering wheel, seat, or mirror (a).",
+        "A flexible boroscope for examining engines (c)."
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Partial or Excessive Actions",
+      "aliases": [
+        "Partial or excessive actions"
+      ],
+      "summary": "Inventive Principle #16 of the 40 Inventive Principles: if exactly 100% is hard, do slightly less or slightly more.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "If 100% of an effect is hard to achieve, using \"slightly less\" or \"slightly"
+        }
+      ],
+      "examples": [
+        "Over-spray when painting, then remove the excess (or use a stencil).",
+        "Fill, then \"top off,\" when filling a gas tank."
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Another Dimension",
+      "aliases": [
+        "Another dimension",
+        "Transition into a new dimension"
+      ],
+      "summary": "Inventive Principle #17 of the 40 Inventive Principles: move into extra dimensions, multi-story layouts, or another side.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Move an object in two- or three-dimensional space."
+        },
+        {
+          "letter": "b",
+          "text": "Use a multi-story arrangement instead of a single-story one."
+        },
+        {
+          "letter": "c",
+          "text": "Tilt or re-orient the object; lay it on its side."
+        },
+        {
+          "letter": "d",
+          "text": "Use \"another side\" of a given area."
+        }
+      ],
+      "examples": [
+        "A five-axis cutting tool positioned where needed (a).",
+        "A dump truck tilting its bed (c); stacking microelectronic circuits to improve"
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Mechanical Vibration",
+      "aliases": [
+        "Mechanical vibration",
+        "Vibration"
+      ],
+      "summary": "Inventive Principle #18 of the 40 Inventive Principles: oscillate or vibrate an object, up to resonance and beyond.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Cause an object to oscillate or vibrate."
+        },
+        {
+          "letter": "b",
+          "text": "Increase its frequency (even to ultrasonic)."
+        },
+        {
+          "letter": "c",
+          "text": "Use the object's resonant frequency."
+        },
+        {
+          "letter": "d",
+          "text": "Use piezoelectric vibrators instead of mechanical ones."
+        },
+        {
+          "letter": "e",
+          "text": "Use combined ultrasonic and electromagnetic field oscillations."
+        }
+      ],
+      "examples": [
+        "An electric carving knife with vibrating blades (a).",
+        "Break up kidney stones with ultrasonic resonance (c); quartz-crystal"
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Periodic Action",
+      "aliases": [
+        "Periodic action"
+      ],
+      "summary": "Inventive Principle #19 of the 40 Inventive Principles: use periodic or pulsed action instead of continuous.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Instead of continuous action, use periodic or pulsating actions."
+        },
+        {
+          "letter": "b",
+          "text": "If an action is already periodic, change its magnitude or frequency."
+        },
+        {
+          "letter": "c",
+          "text": "Use the pauses between impulses to perform a different action."
+        }
+      ],
+      "examples": [
+        "Replace a continuous siren with a pulsed sound (a).",
+        "In CPR, breathe after every few chest compressions (c)."
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Continuity of Useful Action",
+      "aliases": [
+        "Continuity of useful action"
+      ],
+      "summary": "Inventive Principle #20 of the 40 Inventive Principles: keep all parts working usefully at full load, with no idle time.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Carry on work continuously; make all parts of an object work at full load"
+        },
+        {
+          "letter": "b",
+          "text": "Eliminate all idle or intermittent actions."
+        }
+      ],
+      "examples": [
+        "A flywheel stores energy when a vehicle stops so the motor keeps running at",
+        "Print during the return stroke of a printer carriage (b)."
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Skipping",
+      "aliases": [
+        "Skipping",
+        "Rushing through",
+        "Hurrying"
+      ],
+      "summary": "Inventive Principle #21 of the 40 Inventive Principles: run a harmful or hazardous stage at high speed to skip its damage.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Conduct a process, or certain stages (especially destructive, harmful, or"
+        }
+      ],
+      "examples": [
+        "A high-speed dental drill avoids overheating tissue.",
+        "Cut plastic faster than heat can propagate, so it does not deform or melt."
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Blessing in Disguise",
+      "aliases": [
+        "Blessing in disguise",
+        "Convert harm into benefit"
+      ],
+      "summary": "Inventive Principle #22 of the 40 Inventive Principles: turn a harmful factor into a useful one — a core resource move.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use harmful factors (especially of the environment) to achieve a positive"
+        },
+        {
+          "letter": "b",
+          "text": "Eliminate a harmful action by combining it with another harmful action."
+        },
+        {
+          "letter": "c",
+          "text": "Amplify a harmful factor until it is no longer harmful."
+        }
+      ],
+      "examples": [
+        "Use waste heat to generate power (a).",
+        "Backfire — use fire to remove fuel ahead of a forest fire (a)."
+      ]
+    },
+    {
+      "number": 23,
+      "name": "Feedback",
+      "aliases": [
+        "Feedback"
+      ],
+      "summary": "Inventive Principle #23 of the 40 Inventive Principles: introduce or change feedback to regulate a process.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Introduce feedback (referring back, cross-checking) to improve a process or"
+        },
+        {
+          "letter": "b",
+          "text": "If feedback is already used, change its magnitude or influence."
+        }
+      ],
+      "examples": [
+        "Automatic volume control in audio circuits (a).",
+        "A thermostat / statistical process control adjusting based on measurement (a)."
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Intermediary",
+      "aliases": [
+        "Intermediary",
+        "Mediator"
+      ],
+      "summary": "Inventive Principle #24 of the 40 Inventive Principles: use an intermediary carrier or process, possibly removed later.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use an intermediary carrier article or intermediary process."
+        },
+        {
+          "letter": "b",
+          "text": "Merge one object temporarily with another (which can be easily removed)."
+        }
+      ],
+      "examples": [
+        "A carpenter's nailset between hammer and nail (a).",
+        "A pot holder to carry hot dishes (a)."
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Self-service",
+      "aliases": [
+        "Self-service"
+      ],
+      "summary": "Inventive Principle #25 of the 40 Inventive Principles: make an object serve itself and use its own waste — a route toward ideality.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Make an object serve itself by performing auxiliary helpful functions."
+        },
+        {
+          "letter": "b",
+          "text": "Use waste resources, energy, or substances."
+        }
+      ],
+      "examples": [
+        "A halogen lamp regenerates its filament during use (a).",
+        "Animal waste used as fertilizer; using process waste heat (b)."
+      ]
+    },
+    {
+      "number": 26,
+      "name": "Copying",
+      "aliases": [
+        "Copying"
+      ],
+      "summary": "Inventive Principle #26 of the 40 Inventive Principles: use a cheap or optical copy instead of the real, expensive, or fragile object.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Instead of an unavailable, expensive, or fragile object, use simpler,"
+        },
+        {
+          "letter": "b",
+          "text": "Replace an object or process with optical copies (which can be scaled)."
+        },
+        {
+          "letter": "c",
+          "text": "If visible optical copies are used, move to infrared or ultraviolet copies."
+        }
+      ],
+      "examples": [
+        "Measure a tall object by measuring its photograph or shadow.",
+        "Virtual prototypes / simulations in place of physical ones (illustrative)."
+      ]
+    },
+    {
+      "number": 27,
+      "name": "Cheap Short-living Objects",
+      "aliases": [
+        "Cheap short-living objects",
+        "Cheap disposables"
+      ],
+      "summary": "Inventive Principle #27 of the 40 Inventive Principles: replace one expensive object with many cheap ones, trading off some property (e.g. durability).",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Replace an expensive object with a multiple of inexpensive objects,"
+        }
+      ],
+      "examples": [
+        "Disposable paper cups; disposable diapers.",
+        "Single-use razors / surgical masks (illustrative)."
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Mechanics Substitution",
+      "aliases": [
+        "Mechanics substitution",
+        "Replacement of a mechanical system"
+      ],
+      "summary": "Inventive Principle #28 of the 40 Inventive Principles: replace a mechanical means with a sensory or field-based one — closely tied to su-field thinking.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Replace a mechanical means with a sensory (optical, acoustic, thermal,"
+        },
+        {
+          "letter": "b",
+          "text": "Use electric, magnetic, and electromagnetic fields to interact with the"
+        },
+        {
+          "letter": "c",
+          "text": "Change from static to movable fields, from unstructured to structured ones."
+        },
+        {
+          "letter": "d",
+          "text": "Use fields together with field-activated (e.g. ferromagnetic) particles."
+        }
+      ],
+      "examples": [
+        "Add an odorant to odorless natural gas so leaks are detected by smell (a).",
+        "A magnetic stirrer driving fluid via an electromagnetic field (b)."
+      ]
+    },
+    {
+      "number": 29,
+      "name": "Pneumatics and Hydraulics",
+      "aliases": [
+        "Pneumatics and hydraulics"
+      ],
+      "summary": "Inventive Principle #29 of the 40 Inventive Principles: replace solid parts with gas or liquid.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use gas and liquid parts instead of solid ones (inflatable, fluid-filled,"
+        }
+      ],
+      "examples": [
+        "Gel-filled or air-cushion shoe insoles.",
+        "Air suspension on vehicles (illustrative)."
+      ]
+    },
+    {
+      "number": 30,
+      "name": "Flexible Shells and Thin Films",
+      "aliases": [
+        "Flexible shells and thin films",
+        "Flexible membranes"
+      ],
+      "summary": "Inventive Principle #30 of the 40 Inventive Principles: use flexible shells and thin films instead of 3-D structures, and to isolate from the environment.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use flexible shells and thin films instead of three-dimensional structures."
+        },
+        {
+          "letter": "b",
+          "text": "Isolate the object from its external environment using flexible shells and"
+        }
+      ],
+      "examples": [
+        "A thin-film greenhouse cover instead of a rigid structure (a).",
+        "An inflatable cover over a tennis court (a)."
+      ]
+    },
+    {
+      "number": 31,
+      "name": "Porous Materials",
+      "aliases": [
+        "Porous materials"
+      ],
+      "summary": "Inventive Principle #31 of the 40 Inventive Principles: make an object porous, and use the pores to carry a useful substance.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Make an object porous or add porous elements (inserts, coatings)."
+        },
+        {
+          "letter": "b",
+          "text": "If an object is already porous, use the pores to introduce a useful"
+        }
+      ],
+      "examples": [
+        "Drill holes in a structure to reduce weight (a).",
+        "A porous wick storing and releasing lubricant or coolant in use (b)."
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Color Changes",
+      "aliases": [
+        "Color changes",
+        "Optical property changes"
+      ],
+      "summary": "Inventive Principle #32 of the 40 Inventive Principles: change the color or transparency of an object or its environment.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Change the color of an object or its environment."
+        },
+        {
+          "letter": "b",
+          "text": "Change the transparency of an object or its environment."
+        },
+        {
+          "letter": "c",
+          "text": "Use colored additives to observe something hard to see."
+        },
+        {
+          "letter": "d",
+          "text": "If such additives are used, employ luminescent traces or tracer atoms."
+        }
+      ],
+      "examples": [
+        "A transparent bandage lets a wound be inspected without removal (b).",
+        "A red safelight in a photographic darkroom (a)."
+      ]
+    },
+    {
+      "number": 33,
+      "name": "Homogeneity",
+      "aliases": [
+        "Homogeneity"
+      ],
+      "summary": "Inventive Principle #33 of the 40 Inventive Principles: make interacting objects of the same material (or one with identical properties).",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Make objects interacting with a given object out of the same material (or a"
+        }
+      ],
+      "examples": [
+        "Make the container of an abrasive material from the same abrasive so it isn't",
+        "A diamond-tipped tool to machine diamond (illustrative)."
+      ]
+    },
+    {
+      "number": 34,
+      "name": "Discarding and Recovering",
+      "aliases": [
+        "Discarding and recovering",
+        "Rejecting and regenerating parts"
+      ],
+      "summary": "Inventive Principle #34 of the 40 Inventive Principles: discard parts once their function is done, or restore consumable parts during operation.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Make portions that have served their purpose go away (dissolve, evaporate)"
+        },
+        {
+          "letter": "b",
+          "text": "Conversely, restore consumable parts directly during operation."
+        }
+      ],
+      "examples": [
+        "Rocket booster stages jettisoned after use; a dissolvable medicine capsule (a).",
+        "A self-sharpening blade that restores its edge during use (b)."
+      ]
+    },
+    {
+      "number": 35,
+      "name": "Parameter Changes",
+      "aliases": [
+        "Parameter changes",
+        "Transformation of properties"
+      ],
+      "summary": "Inventive Principle #35 of the 40 Inventive Principles: change a physical state, concentration, flexibility, or temperature. The single **most frequently recommended** principle in the Contradiction Matrix.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Change an object's physical state (e.g. to gas, liquid, solid)."
+        },
+        {
+          "letter": "b",
+          "text": "Change the concentration or consistency."
+        },
+        {
+          "letter": "c",
+          "text": "Change the degree of flexibility."
+        },
+        {
+          "letter": "d",
+          "text": "Change the temperature."
+        }
+      ],
+      "examples": [
+        "Freeze the liquid centers of filled candies, then dip in chocolate, instead of",
+        "Raise temperature past the Curie point to make a ferromagnet paramagnetic (d)."
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Phase Transitions",
+      "aliases": [
+        "Phase transitions"
+      ],
+      "summary": "Inventive Principle #36 of the 40 Inventive Principles: exploit the phenomena occurring *during* a phase change (volume change, latent heat).",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use phenomena occurring during phase transitions (volume changes, release or"
+        }
+      ],
+      "examples": [
+        "Use water-to-steam expansion (or freezing expansion) to do work; a heat pump",
+        "Expansion of freezing water to split rock (illustrative)."
+      ]
+    },
+    {
+      "number": 37,
+      "name": "Thermal Expansion",
+      "aliases": [
+        "Thermal expansion"
+      ],
+      "summary": "Inventive Principle #37 of the 40 Inventive Principles: use thermal expansion/contraction, possibly with multiple materials.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Use thermal expansion (or contraction) of materials."
+        },
+        {
+          "letter": "b",
+          "text": "If using thermal expansion, use multiple materials with different expansion"
+        }
+      ],
+      "examples": [
+        "A bimetallic strip in a thermostat converts temperature into movement (b).",
+        "Heat a ring to expand it, fit it, then let it shrink onto a shaft (a)."
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Strong Oxidants",
+      "aliases": [
+        "Strong oxidants",
+        "Accelerated oxidation"
+      ],
+      "summary": "Inventive Principle #38 of the 40 Inventive Principles: escalate oxidation along a ladder from ambient air to ozone.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Replace common air with oxygen-enriched air."
+        },
+        {
+          "letter": "b",
+          "text": "Replace enriched air with pure oxygen."
+        },
+        {
+          "letter": "c",
+          "text": "Expose air or oxygen to ionizing radiation."
+        },
+        {
+          "letter": "d",
+          "text": "Use ionized oxygen."
+        },
+        {
+          "letter": "e",
+          "text": "Replace ozonized/ionized oxygen with ozone."
+        }
+      ],
+      "examples": [
+        "Use oxygen (not air) with an acetylene torch for a hotter, cleaner cut.",
+        "Ozone treatment of water for disinfection."
+      ]
+    },
+    {
+      "number": 39,
+      "name": "Inert Atmosphere",
+      "aliases": [
+        "Inert atmosphere",
+        "Inert environment"
+      ],
+      "summary": "Inventive Principle #39 of the 40 Inventive Principles: replace the active environment with an inert one to suppress unwanted interaction.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Replace a normal environment with an inert one."
+        },
+        {
+          "letter": "b",
+          "text": "Add neutral parts or inert additives to an object."
+        },
+        {
+          "letter": "c",
+          "text": "Carry out the process in a vacuum."
+        }
+      ],
+      "examples": [
+        "Fill an incandescent bulb with argon to prevent filament oxidation (a).",
+        "Store/handle reactive materials under a nitrogen blanket (a/b)."
+      ]
+    },
+    {
+      "number": 40,
+      "name": "Composite Materials",
+      "aliases": [
+        "Composite materials"
+      ],
+      "summary": "Inventive Principle #40 of the 40 Inventive Principles: change from uniform materials to composite (multiple) ones.",
+      "sub_principles": [
+        {
+          "letter": "a",
+          "text": "Change from uniform (homogeneous) to composite (multiple) materials."
+        }
+      ],
+      "examples": [
+        "Carbon-fiber composite aircraft components for a high strength-to-weight ratio.",
+        "Fiberglass; composite armor (illustrative)."
+      ]
+    }
+  ]
+}
