@@ -18,3 +18,7 @@ vault/episodes/
 
 # Vendored spec requirements (fetched at runtime, cached locally)
 conformance/requirements.json
+.gstack/
+
+# Obsidian per-vault personal config
+vault/.obsidian/
