@@ -1,6 +1,10 @@
-# Claude-Specific Guide for ckeletin-rust
+# triz — Claude-Specific Guide
 
-> Read [AGENTS.md](AGENTS.md) first — it contains all project knowledge.
+> Read [README.md](README.md) and [AGENTS.md](AGENTS.md) first.
+> **triz** is a TRIZ method skill + knowledgebase for inventive product development.
+> The validated product is the skill (`docs/triz-method-skill.md`), the data
+> (`data/*.json`), and the 150+ note `vault/`. The Rust workspace is a thin, optional
+> CLI layer; the conventions below apply when working on it.
 > This file adds Claude-specific behavioral tuning only.
 
 ## Before You Start

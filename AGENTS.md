@@ -1,18 +1,29 @@
-# ckeletin-rust — Project Guide for AI Agents
+# triz — Project Guide for AI Agents
 
 ## About This Project
 
-**ckeletin-rust** is a Rust CLI scaffold implementing the [ckeletin spec](https://github.com/peiman/ckeletin) v0.3.0. It enforces four-layer architecture at compile time through a Cargo workspace with separate crates.
+**triz** is an agent-native TRIZ method for inventive product development — see
+[README.md](README.md). The validated deliverable is the **method skill**
+(`docs/triz-method-skill.md`), backed by **data** (`data/parameters.json`,
+`data/principles.json`) and a 150+ note **vaultmind knowledgebase** (`vault/`), with
+the full evidence trail in `docs/` (strategy + three blind experiments).
 
-Key characteristics:
+Honest scope: TRIZ helps on the inventive ~23% of problems; for software/UX the
+method uses separation principles + function analysis (the classical contradiction
+matrix does not fit software).
+
+### Optional Rust CLI (thin / not yet built)
+
+The repo is also a Rust Cargo workspace (a [ckeletin-rust](https://github.com/peiman/ckeletin-rust)
+scaffold). The experiments showed a heavy deterministic tool isn't justified over the
+skill, so the CLI is deliberately thin — the only operations worth compiling are
+`parameter-search` and `formulate-contradiction` over `data/`. The conventions below
+apply when/if that thin CLI is built.
+
+Scaffold characteristics:
 - **Workspace with 3 crates:** `domain` (business logic), `infrastructure` (config, logging, output), `cli` (entry + commands)
-- **Compile-time architecture enforcement:** Crate boundaries in Cargo.toml prevent reverse dependencies. Violation tests prove it (CKSPEC-ENF-006)
-- **Three-stream output:** stdout (data), stderr (status), log file (audit)
-- **JSON mode:** `--output json` flag for machine-readable output on every command
-- **Shadow logging:** Every output operation logged to audit stream
-- **Layered configuration:** defaults → TOML file → environment variables → CLI flags
-- **TDD:** Tests first, always. 85% minimum coverage
-- **Dependency injection over mocking** — writer injection pattern, no mock frameworks
+- **Compile-time architecture enforcement:** crate boundaries in Cargo.toml prevent reverse dependencies (violation tests prove it)
+- **JSON mode:** `--output json` on every command; **TDD**; dependency injection over mocking
 
 ## Architecture
 
