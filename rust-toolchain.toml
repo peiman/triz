@@ -1,0 +1,11 @@
+# Single source of truth for the Rust toolchain (local + CI).
+#
+# Pinned deliberately: CI previously installed a floating `@stable` that drifted
+# ahead of developer machines, so `just check` passed locally but failed in CI
+# (a newer clippy denied lints, and newer rustc reworded the E0433 message that
+# the trybuild architecture-violation snapshots assert on). Pinning makes the
+# compiler identical everywhere; bump this channel intentionally and re-run
+# `just check` (re-bless trybuild snapshots with TRYBUILD=overwrite if needed).
+[toolchain]
+channel = "1.96.0"
+components = ["clippy", "rustfmt", "llvm-tools-preview"]

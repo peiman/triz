@@ -167,7 +167,7 @@ pub fn parameter_search(query: &str) -> ParameterSearchResult {
         })
         .collect();
     // Stable sort by descending score keeps the data-file order for ties.
-    scored.sort_by(|a, b| b.score.cmp(&a.score));
+    scored.sort_by_key(|m| std::cmp::Reverse(m.score));
     scored.truncate(MAX_MATCHES);
     ParameterSearchResult {
         query: query.trim().to_string(),

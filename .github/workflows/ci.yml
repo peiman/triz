@@ -16,9 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: dtolnay/rust-toolchain@stable
-        with:
-          components: clippy, rustfmt, llvm-tools-preview
+      # Toolchain is pinned in rust-toolchain.toml (SSOT for local + CI).
+      # `rustup toolchain install` with no args installs exactly that channel
+      # and its components, so CI and developer machines run an identical rustc
+      # — preventing the "green locally, red in CI" drift a floating @stable
+      # caused (newer clippy lints + reworded compiler errors vs. trybuild
+      # snapshots). Bump the pin in rust-toolchain.toml, not here.
+      - name: Install pinned Rust toolchain
+        run: rustup toolchain install
 
       - name: Cache cargo
         uses: actions/cache@v4
