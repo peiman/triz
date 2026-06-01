@@ -12,13 +12,15 @@ Honest scope: TRIZ helps on the inventive ~23% of problems; for software/UX the
 method uses separation principles + function analysis (the classical contradiction
 matrix does not fit software).
 
-### Optional Rust CLI (thin / not yet built)
+### Optional Rust CLI (thin)
 
 The repo is also a Rust Cargo workspace (a [ckeletin-rust](https://github.com/peiman/ckeletin-rust)
 scaffold). The experiments showed a heavy deterministic tool isn't justified over the
-skill, so the CLI is deliberately thin — the only operations worth compiling are
-`parameter-search` and `formulate-contradiction` over `data/`. The conventions below
-apply when/if that thin CLI is built.
+skill, so the CLI is deliberately thin — the only two operations worth compiling are
+`parameter-search` (everyday vocabulary → engineering parameter, the blind-tested lookup)
+and `formulate-contradiction` (deterministic technical-vs-physical classification + routing)
+over `data/`. Both ship as of v0.1.0; both are engineering-domain only. The conventions below
+govern any further CLI work.
 
 Scaffold characteristics:
 - **Workspace with 3 crates:** `domain` (business logic), `infrastructure` (config, logging, output), `cli` (entry + commands)

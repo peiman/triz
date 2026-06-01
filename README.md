@@ -57,16 +57,43 @@ agent `data/parameters.json` / `data/principles.json` for deterministic lookups,
 `vault/` for deep recall. Then state a problem and let the agent run the spine — IFR first,
 name the contradiction, cite the resources, refuse compromise.
 
-## The Rust CLI (optional, scaffolded)
+## The Rust CLI (optional, thin)
 
 This repo is a [ckeletin-rust](https://github.com/peiman/ckeletin-rust) Cargo workspace
 (`crates/domain` · `crates/infrastructure` · `crates/cli`). The experiments showed a heavy
 deterministic tool isn't justified over the skill, so the CLI is **deliberately thin**: the
-only operations worth compiling are `parameter-search` and `formulate-contradiction` over the
-`data/` files. None of that is built yet — the skill + data are the product today.
+only two operations worth compiling are the *framing* front-end an LLM does unreliably on its
+own — a verified vocabulary lookup and a deterministic contradiction classifier. Solution
+generation stays with the agent/skill.
 
 ```bash
-just check    # fmt + clippy + test + deny (scaffold still green)
+# Map everyday engineer vocabulary → TRIZ engineering parameter(s)
+$ triz parameter-search durability
+Parameters matching "durability":
+14 — Strength
+15 — Duration of action of moving object
+16 — Duration of action of stationary object
+27 — Reliability
+
+# Classify a conflict as technical (two parameters) or physical (one parameter,
+# opposite values) and route it to the right resolution path
+$ triz formulate-contradiction --improving weight --worsening strength
+Improving: 1 — Weight of moving object
+Worsening: 14 — Strength
+Kind: Technical
+Technical contradiction (two parameters conflict). Surface the physical
+contradiction underneath, then resolve with separation principles. …
+
+# Every command also speaks JSON for agent pipelines
+$ triz --output json parameter-search durability
+```
+
+Both commands are **engineering-domain only** — for software/UX/organizational problems the
+parameters don't apply, and the output says so. Build and verify with:
+
+```bash
+just check    # fmt + clippy + test + deny
+just build    # release binary at target/release/triz
 ```
 
 ## Provenance
