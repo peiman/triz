@@ -153,3 +153,113 @@ fn json_verbose_no_stderr_leak() {
         .success()
         .stderr(predicate::str::is_empty());
 }
+
+// ── parameter-search ──────────────────────────────────────────
+
+#[test]
+fn parameter_search_human_mode() {
+    // "durability" ranks Strength (param 14) among the matches.
+    cmd()
+        .args(["parameter-search", "durability"])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("Strength"))
+        .stdout(predicate::str::contains("14"));
+}
+
+#[test]
+fn parameter_search_json_mode_has_success_status() {
+    cmd()
+        .args(["--output", "json", "parameter-search", "durability"])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("\"status\": \"success\""));
+}
+
+#[test]
+fn parameter_search_json_mode_has_command_name() {
+    cmd()
+        .args(["--output", "json", "parameter-search", "durability"])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains(
+            "\"command\": \"parameter-search\"",
+        ));
+}
+
+#[test]
+fn parameter_search_json_mode_has_matches_array() {
+    cmd()
+        .args(["--output", "json", "parameter-search", "durability"])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("\"matches\""))
+        .stdout(predicate::str::contains("\"number\""));
+}
+
+#[test]
+fn parameter_search_no_match_human_mode() {
+    cmd()
+        .args(["parameter-search", "asdfqwerzzz"])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("engineering-domain"));
+}
+
+// ── formulate-contradiction ───────────────────────────────────
+
+#[test]
+fn formulate_contradiction_human_mode() {
+    cmd()
+        .args([
+            "formulate-contradiction",
+            "--improving",
+            "weight",
+            "--worsening",
+            "strength",
+        ])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("Technical"))
+        .stdout(predicate::str::contains("Strength"));
+}
+
+#[test]
+fn formulate_contradiction_json_mode_is_technical_with_both_params() {
+    cmd()
+        .args([
+            "--output",
+            "json",
+            "formulate-contradiction",
+            "--improving",
+            "weight",
+            "--worsening",
+            "strength",
+        ])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("\"status\": \"success\""))
+        .stdout(predicate::str::contains(
+            "\"command\": \"formulate-contradiction\"",
+        ))
+        .stdout(predicate::str::contains("\"kind\": \"technical\""))
+        .stdout(predicate::str::contains("\"number\": 1"))
+        .stdout(predicate::str::contains("\"number\": 14"));
+}
+
+#[test]
+fn formulate_contradiction_same_param_is_physical() {
+    cmd()
+        .args([
+            "--output",
+            "json",
+            "formulate-contradiction",
+            "--improving",
+            "reliability",
+            "--worsening",
+            "reliability",
+        ])
+        .assert()
+        .success()
+        .stdout(predicate::str::contains("\"kind\": \"physical\""));
+}

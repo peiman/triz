@@ -32,4 +32,20 @@ pub enum OutputFormat {
 pub enum Commands {
     /// Check connectivity — returns pong
     Ping,
+
+    /// Search the 39 TRIZ engineering parameters by free-text query
+    ParameterSearch {
+        /// Free-text term to rank against parameter names + aliases
+        query: String,
+    },
+
+    /// Formulate a contradiction from an improving and worsening term
+    FormulateContradiction {
+        /// The parameter you want to improve
+        #[arg(long)]
+        improving: String,
+        /// The parameter that worsens as a result
+        #[arg(long)]
+        worsening: String,
+    },
 }

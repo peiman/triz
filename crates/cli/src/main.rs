@@ -1,6 +1,7 @@
 //! Entry point — bootstrap only (CKSPEC-ARCH-006).
 //! All logic lives in domain and infrastructure crates.
 
+mod parameters;
 mod ping;
 mod root;
 
@@ -56,6 +57,8 @@ fn run() -> i32 {
 fn subcommand_name(command: &root::Commands) -> &'static str {
     match command {
         root::Commands::Ping => "ping",
+        root::Commands::ParameterSearch { .. } => "parameter-search",
+        root::Commands::FormulateContradiction { .. } => "formulate-contradiction",
     }
 }
 
@@ -96,6 +99,11 @@ fn run_inner(cli: root::Cli) -> Result<(), Box<dyn std::error::Error>> {
     // Dispatch to command handler
     match cli.command {
         root::Commands::Ping => ping::execute(&output)?,
+        root::Commands::ParameterSearch { query } => parameters::search(&output, &query)?,
+        root::Commands::FormulateContradiction {
+            improving,
+            worsening,
+        } => parameters::formulate(&output, &improving, &worsening)?,
     }
 
     Ok(())
