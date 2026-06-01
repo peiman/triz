@@ -8,6 +8,42 @@ problems — instead of accepting a compromise. `triz` packages the method as so
 agent (or a person) can actually use, backed by a cited knowledgebase and validated by
 experiment.
 
+## Quick start
+
+Pick **one** path; you don't need all three. None require Rust except the optional CLI.
+
+**A — Claude Code (recommended).** The repo ships a ready-to-use skill that auto-triggers on
+trade-off language.
+
+```bash
+git clone https://github.com/peiman/triz.git
+cd triz
+cp -R .claude/skills/triz ~/.claude/skills/       # global: every session
+# or: cp -R .claude/skills/triz <your-project>/.claude/skills/triz/   # one project only
+```
+
+Then in Claude Code just describe a contradiction ("we keep trading off A vs B"), or force it
+with `apply TRIZ to: …`. The skill is self-contained — no CLI, data files, or vaultmind needed.
+
+**B — Any LLM (ChatGPT / Gemini / …).** Paste the full contents of
+[`docs/triz-method-skill.md`](docs/triz-method-skill.md) as the system prompt, optionally attach
+`data/parameters.json` + `data/principles.json`, then state your problem.
+
+**C — The CLI (optional, scriptable).** A thin engineering-domain helper that *frames* a
+contradiction (it does not generate the solution — the skill/agent does). Needs a
+[Rust toolchain](https://rustup.rs/); `just` is optional.
+
+```bash
+# from a clone of the repo:
+cargo install --path crates/cli        # installs `triz` to ~/.cargo/bin
+triz --version
+triz parameter-search durability
+triz formulate-contradiction --improving weight --worsening strength
+triz --output json parameter-search durability   # machine-readable for pipelines
+```
+
+New here? See the **[Getting Started guide](docs/getting-started.md)** for the full walkthrough.
+
 ## What this is (and what the evidence says it should be)
 
 We designed `triz` by **dogfooding TRIZ on itself** and then **testing the premise before
