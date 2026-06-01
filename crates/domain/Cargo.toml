@@ -14,7 +14,10 @@ license.workspace = true
 
 [dependencies]
 serde = { workspace = true }
+# serde_json is a serialization concern (parsing the embedded data files at
+# startup), not a framework dependency — permitted in domain. The workspace
+# already pins it.
+serde_json = { workspace = true }
 
 [dev-dependencies]
-serde_json = { workspace = true }
 trybuild = { workspace = true }
