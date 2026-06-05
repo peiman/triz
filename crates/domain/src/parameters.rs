@@ -75,6 +75,9 @@ fn score_candidate(candidate: &str, query: &str) -> u32 {
     }
     let cand_tokens = tokens(&candidate);
     let query_tokens = tokens(query);
+    // Bounded by the number of tokens in a single query string (a handful),
+    // never near u32::MAX — safe by construction.
+    #[allow(clippy::cast_possible_truncation)]
     let overlap = query_tokens
         .iter()
         .filter(|t| cand_tokens.contains(t))
